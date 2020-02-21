@@ -8,9 +8,9 @@
 
 This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html).
 
-OIC is a fully managed service offered by Oracle. OIC offers application integration, typically triggered by an enterprise's business events. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), EDQ, and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis.
+Oracle Integration, OIC, is a fully managed service offered by Oracle. OIC offers application integration, typically triggered by an enterprise's business events. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), EDQ, and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis.
 
-If you do not have an OIC environment, you can do this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1). Once you have OIC spun up, start these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
+If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1). Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
 
 ## Outline
 
