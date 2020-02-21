@@ -150,11 +150,9 @@ This is where I go to examine if a SaaS version is compatible with the given ada
 [Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
 
 [Shalindra's blog](https://shalindrasingh.wordpress.com/)
-
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS)
-
-[VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
-    [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
+    
+[Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
+  [study guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
 
 ## Youtube
 
@@ -183,6 +181,8 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 [OIC SaaS Integration](https://github.com/OracleCPS/oicsaasintegration)
 
 [Another OIC Workshop](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS)
 
 ## Advanced use cases
 
@@ -217,11 +217,16 @@ This video shows how to integrate processes in VBCS (similar to the demo).
 
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
+[VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
+    [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
+
 [Service Cloud to Eloqua](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
 [Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
 
 [REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
+
+Example: When a new user is created somewhere - they can then be created in IDCS.
 
 [Fusion SOAP API](https://docs.oracle.com/en/cloud/saas/procurement/18b/oeswp/Purchase-Order-Service-Version-2-PurchaseOrderService-svc-3.html)
 
@@ -239,12 +244,9 @@ An event that occurs in OCI can also be fired to an [integration HTTPS endpoint]
 
 This provides pre-defined cross-product architectures.
 
-[Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
-  [study guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
-
 [Installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
 
-The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communicationg over port 22. The agent ensures your on-premises systems feel as integrated with the cloud as the cloud does.
+The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud.
 
 ## Administering OIC
 
@@ -253,6 +255,8 @@ The agent is required to integrate with systems not accessible from the internet
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
 [CI/CD for OIC](https://www.youtube.com/watch?v=FiC7PfN7wZ0)
+
+This is an alternative to just using import/export.
 
 Integration roles in IDCS (gen1)
 [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
