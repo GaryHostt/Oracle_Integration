@@ -84,27 +84,15 @@ This video shows you how to start[configuring salesforce for business events](ht
 
 Schedule integrations are good for sending data from applications to data warehouses, reading information from csv files, or pulling information from applications and writing that data to a csv file. 
 
-1. Pulling from FTP/Writing to FTP/Load data warehouse
+[This workshop](https://github.com/GaryHostt/BigQueryIntegration) is an example of pulling info from an FTP server and writing them to Google's data warehouse, BigQuery, via its REST API. However, for files larger than that and less than 1 GB - you will need the 'stage file' operation in order to read the file - as shown in [this YouTube video](https://www.youtube.com/watch?v=hE5nF-henFw&feature=share). Besides reading files, you can [write them to an FTP after invoking data (seen in this video](https://www.youtube.com/watch?v=7wx-gAT4IdU), and [list files - even from multiple directories](https://www.techsupper.com/2019/05/how-to-list-files-from-ftp-resides-in-multiple-directories-oracle-integration-cloud.html). 
 
-[BigQuery data load](https://github.com/GaryHostt/BigQueryIntegration)
-
-This is an example of pulling info from applications and writing them to Google's data warehouse via its REST API. 
-
-[Reading large files](https://www.youtube.com/watch?v=hE5nF-henFw&feature=share)
-
-OIC can process flat files up to 1 GB in size. For larger files - [check out my data integration repo](https://github.com/GaryHostt/Oracle_Data_Integrator). 
-
-[Listing files from FTP](https://www.techsupper.com/2019/05/how-to-list-files-from-ftp-resides-in-multiple-directories-oracle-integration-cloud.html)
-
-[File integration for Fusion ERP](https://www.youtube.com/watch?v=7wx-gAT4IdU)
+OIC can process flat files up to 1 GB in size. For larger files than that - [check out my data integration repo](https://github.com/GaryHostt/Oracle_Data_Integrator). 
 
 ### Generic REST endpoint
 
-The next use case pattern is basically using OIC as a drag and drop API builder. You can use a blank REST adapter at the beginning of your integrations. This can be used to abstract away SOAP endpoints. 
+The next use case pattern is basically using OIC as a drag and drop API builder. You can use a blank REST adapter at the beginning of your integrations. This can also be used to abstract away SOAP endpoints. 
 
-[ATP Workshop](https://github.com/GaryHostt/ATPworkshop)
-
-In this workshop, we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
+[In this workshop](https://github.com/GaryHostt/ATPworkshop), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
 
 [Webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8) can be configured to send payloads to a generic REST endpoint.
 
@@ -127,7 +115,7 @@ If you create a contact in Fusion, or a new lead in salesforce, but the business
 
 [Adapter certifications](https://www.oracle.com/technetwork/middleware/adapters/documentation/adaptercertificationmatrix0217-3613709.pdf)
 
-This is where I go to examine if a SaaS version is compatible with the given adapter.
+This is where I go to examine if a given SaaS version is compatible with the adapter.
 
 [Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
 
@@ -226,7 +214,7 @@ When the SaaS adapter and the REST API don't have something you need - check the
 
 In order to call the OCI REST API, like above, - you have to configure the REST adapter connection to use the [OCI Signature Version 1 security policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84). This policy enables you to use Oracle Cloud Infrastructure services. For example, you can create an integration that lists your VCNs. 
 
-An event that occurs in OCI can also be fired to an [integration HTTPS endpoint].(https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md)
+An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
 
 [Oracle Integration Solutions Catalog](https://docs.oracle.com/en/solutions/index.html?product=Oracle%20Integration&technology=PaaS&page=0&is=true&sort=0)
 
