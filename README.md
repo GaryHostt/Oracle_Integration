@@ -95,9 +95,9 @@ The next use case pattern is basically using OIC as a drag and drop API builder.
 ### Mapping 
 I want to explain how to go about developing for an integration, such as is in [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
 
-When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. Typically, beginning by searching [the documentation is a good start](https://docs.oracle.com/en/cloud/saas/procurement/19a/oaprc/manage-purchase-orders.html#OAPRC1007407). Looking at the 'Defaults:' we can find the fields required for the lines, schedules, and distributions.
+When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. Typically, beginning by searching [the documentation is a good start](https://docs.oracle.com/en/cloud/saas/procurement/19a/oaprc/manage-purchase-orders.html#OAPRC1007407). Looking at the 'Defaults:' we can find the fields required for the lines, schedules, and distributions. If you are calling a SOAP API and simply want to abstract it away as a REST API - simply make the request payload have the same fields that the SOAP API has and then press the recommend button - it should work for the fields if they are about a 1:1 ratio and have identical names.
 
-Then, to understand the data types for the fields - or see how they're formatted, I'd call the endpoint to give me one or all of the business object I'm trying to create. In this case, I can look at the [get all POs or get 1 PO endpoints](https://docs.oracle.com/en/cloud/saas/procurement/19d/fapra/api-purchase-orders.html).
+Then, to understand the data types for the fields - or see how they're formatted, I'd call the endpoint to give me one or all of the given business object I'm trying to create. In this case, I can look at the [get all POs or get 1 PO endpoints](https://docs.oracle.com/en/cloud/saas/procurement/19d/fapra/api-purchase-orders.html). The responses from calling the API directly show me how it expects values to be for the given fields. I can then use this information when sending in field/value pairs in the request payload.
 
 Typically for development purposes, I would start this integration with a generic REST adapter that has ~5 fields that map to important fields for the SaaS. After filling out the important ones like POHeaderID, ItemNumber, etc. I activate the integration, then send a payload. Typically, the response will be a 500 error and the response will then contain the field that still requires an attribute. Next, deactivate the integration, map another field from the REST adapter to the business field and then from Postman you can dynamically try different values for that field. Once you find a working value - you can leave it in the submission to the generic REST adapter, or just hardcode it in the adapter. 
 
@@ -129,7 +129,7 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
 
-[Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw&t=1353s)
+[Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
 
 ## More Workshops
 
@@ -187,38 +187,19 @@ This video shows how to integrate processes in VBCS.
 
 ### Other use cases 
 
-[SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
+#### Different ways to use OIC
 
 [Sending attachments with notifications](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
-
-[Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
 
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
 You can also give chatbots [custom skills to call APIs](https://github.com/oracle/opa-oda-chat) from conversations - this could include the OIC API.
 
-[Using VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
-    [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
+[Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
 
-[Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
+[Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
-[Invoking the REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
-
-Example: When a new user is created somewhere - they can then be created in IDCS.
-
-[Calling a serverless function wit hthe REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
-
-[Fusion SOAP API](https://docs.oracle.com/en/cloud/saas/procurement/18b/oeswp/Purchase-Order-Service-Version-2-PurchaseOrderService-svc-3.html)
-
-When the SaaS adapter and the REST API don't have something you need - check the SOAP API. 
-
-[Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
-
-[Object Storage with OIC](https://redthunder.blog/2020/01/13/object-storage-with-oracle-integration-cloud-part-1/)
-
-In order to call the OCI REST API, like above, - you have to configure the REST adapter connection to use the [OCI Signature Version 1 security policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84). This policy enables you to use Oracle Cloud Infrastructure services. For example, you can create an integration that lists your VCNs. 
-
-An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
+Have to deal with an oddly formatted flat file or API response? Use a javascript function to convert it to a workable format.
 
 [Oracle Integration Solutions Catalog](https://docs.oracle.com/en/solutions/index.html?product=Oracle%20Integration&technology=PaaS&page=0&is=true&sort=0)
 
@@ -227,6 +208,29 @@ This provides pre-defined cross-product architectures.
 [Installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
 
 The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
+
+#### Other APIs to call
+
+[SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
+
+[Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
+
+[Using VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
+    [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
+
+[Invoking the REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
+
+Example: When a new user is created somewhere - they can then be created in IDCS.
+
+[Calling a serverless function wit hthe REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
+
+[Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
+
+[Object Storage with OIC](https://redthunder.blog/2020/01/13/object-storage-with-oracle-integration-cloud-part-1/)
+
+In order to call the OCI REST API, like above, - you have to configure the REST adapter connection to use the [OCI Signature Version 1 security policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84). This policy enables you to use Oracle Cloud Infrastructure services. For example, you can create an integration that lists your VCNs. 
+
+An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
 
 ## Administering OIC
 
