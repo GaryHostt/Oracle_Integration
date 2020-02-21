@@ -131,9 +131,13 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
 
+[Process Automation Introduction](Process Automation introduction)
+
+[Integration CI/CD](https://www.youtube.com/watch?v=FiC7PfN7wZ0&)
+
 ## Additional Workshops
 
-[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md)
+[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
@@ -141,7 +145,7 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS)
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
