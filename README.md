@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html).
+This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources.
 
 Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events. We have [many successful customers](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories) that have digitally transformed their businesses. 
 
@@ -262,6 +262,8 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
   [Using the BI Cloud Connector](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
+  
+[More from Oracle's Cloud Solution Hubs](https://www.oracle.com/cloud/solution-hubs/demos.html)
 
 
 
