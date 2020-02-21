@@ -74,19 +74,11 @@ SaaS trigger integrations typically rely upon these factors:
 2. Configuration on the SaaS to fire off an outbound message or a webhook to OIC
 3. An event then occuring in the SaaS application that will trigger communication with OIC
 
-[Eloqua trigger](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm)
+Using Eloqua as a trigger first requires [installing this agent and linking it to your OIC environment](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm). After installing the agent, you then need to create the rule in Eloqua that triggers the outbound call to OIC by [adding a task to a campaign canvas](https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/IntegrationCloudService/Tasks/AddingICSToCanvas.htm).
 
-Using Eloqua as a trigger rquires installing this and linking it to your OIC environment. 
+[This workshop](https://github.com/GaryHostt/OIC_SaaS_integration) shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
 
-[Eloqua continued](https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/IntegrationCloudService/Tasks/AddingICSToCanvas.htm)
-
-After installing the agent, you then need to create the rule in Eloqua that triggers the outbound call to OIC.
-
-[Fusion](https://github.com/GaryHostt/OIC_SaaS_integration)
-
-This workshop shows how to configure Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
-
-[Configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share)
+This video shows you how to start[configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share) as integration triggers. This article explains [configuring Service Cloud outbound communication](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/) to Eloqua.
 
 ### Scheduled
 
@@ -217,8 +209,6 @@ This video shows how to integrate processes in VBCS.
 
 [VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
     [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
-
-[Service Cloud to Eloqua](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
 [Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
 
