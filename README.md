@@ -18,7 +18,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 1. General Resources
 2. Components of OIC
-3. Basic types of integrations
+3. Basic types of integrations - with workshop examples
 4. Treatise: developing in OIC
 5. Other resources
 6. Youtube sources
@@ -53,7 +53,7 @@ note: Enterprise edition only below
 5. Process Automation
 6. On-premises Enterprise Application adapters 
 
-## Basic types of integrations
+## Basic types of integrations - with workshop examples
 
 1. SaaS triggers
 2. Scheduled
