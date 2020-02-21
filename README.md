@@ -133,6 +133,7 @@ In this workshop, we basically use OIC to create a REST API for an Autonomous Tr
 
 ## Treatise: developing in OIC
 
+### Mapping 
 I want to explain how to go about developing for an integration, such as is in [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
 
 When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. Typically, beginning by searching [the documentation is a good start](https://docs.oracle.com/en/cloud/saas/procurement/19a/oaprc/manage-purchase-orders.html#OAPRC1007407). Looking at the 'Defaults:' we can find the fields required for the lines, schedules, and distributions.
@@ -140,6 +141,10 @@ When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you
 Then, to understand the data types for the fields - or see how they're formatted, I'd call the endpoint to give me one or all of the business object I'm trying to create. In this case, I can look at the [get all POs or get 1 PO endpoints](https://docs.oracle.com/en/cloud/saas/procurement/19d/fapra/api-purchase-orders.html).
 
 Typically for development purposes, I would start this integration with a generic REST adapter that has ~5 fields that map to important fields for the SaaS. After filling out the important ones like POHeaderID, ItemNumber, etc. I activate the integration, then send a payload. Typically, the response will be a 500 error and the response will then contain the field that still requires an attribute. Next, deactivate the integration, map another field from the REST adapter to the business field and then from Postman you can dynamically try different values for that field. Once you find a working value - you can leave it in the submission to the generic REST adapter, or just hardcode it in the adapter. 
+
+### If your integration is not appearing in tracking after performing the trigger action in SaaS
+
+If you create a contact in Fusion, or a new lead in salesforce, but the business event isn't appearing in tracking - you need to verify that you properly configured the SaaS. You should also check if you are logged in as the user on the SaaS that you used to create the connection on OIC.
 
 ## Other Resources
 
@@ -192,6 +197,8 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 [Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
 
 ### Embeding VBCS & Process forms 
+
+Being able to embed VBCS & Process forms is a powerful feature - imagine a company is doing a Lift and Shift of EBS to Cloud ERP over the course of 6 months. As they move different modules, new business users can interact with forms embedded in Cloud ERP that are actually integrated to call endpoints in EBS. This means that EBS is integrated with ERP - without even being noticed. This effectively places the functionality of the non-migrated parts of EBS inside of Cloud ERP.
 
 [Extending SaaS with VBCS](https://www.ateam-oracle.com/what-you-should-know-when-extending-saas-with-vbcs-%E2%80%93-part-1-the-user-)
 
