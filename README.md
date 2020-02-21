@@ -1,4 +1,4 @@
-# Oracle_Integration
+# Oracle Integration
 
 <p align="center">
   <img src="https://github.com/GaryHostt/Oracle_Integration/blob/master/screenshots/1.png?raw=true" alt="OIC"/>
@@ -25,15 +25,16 @@ OIC is a fully managed service offered by Oracle. You need not worry about HA wi
 
 ## General resources
 
-[OIC documentation home](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html)
+[OIC documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html)
 
-[OIC Product home](https://www.oracle.com/middleware/application-integration/)
+[OIC Product homepage](https://www.oracle.com/middleware/application-integration/)
 
 [OIC adapters](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
 
 What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with the adapter documentation.
 
 [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html)
+  
   [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html)
 
 [The first tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1)
