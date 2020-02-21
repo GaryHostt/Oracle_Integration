@@ -6,20 +6,28 @@
 
 ## Introduction
 
-This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html). OR INSERT DP AND YOUR VIDEO FROM THIS PAGE
+This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html).
 
-OIC is a fully managed service offered by Oracle. You need not worry about HA within the region you subscribe. OIC substantially differs from Oracle's ODI, EDQ, and GoldenGate offerings. OIC offers application integration, typically triggered upon an enterprise's business events. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. Of course, the 2 families of products can be used for more than just those use cases, but this is just to give an idea of the difference between application and data integration.
+OIC is a fully managed service offered by Oracle. You need not worry about HA within the region you subscribe. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), EDQ, and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. OIC offers application integration, typically triggered by an enterprise's business events. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. Of course, the 2 families of products can be used for more than just those use cases, but this is just to give an idea of the difference between application and data integration.
 
 ## Outline
 
 1. General Resources
 2. Components of OIC
-3. A treatise on troubleshooting fields
-xxxx
+3. Basic types of integrations
+4. Treatise: developing in OIC
+5. Other resources
+6. Youtube
+7. Workshops
+8. Advanced use cases
+9. Administering OIC
+10. Beyond Application Integration
 
 ## General resources
 
 [OIC documentation home](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html)
+
+[OIC Product home](https://www.oracle.com/middleware/application-integration/)
 
 [OIC adapters](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
 
@@ -28,7 +36,13 @@ What credentials do I need to connect, how do I configure SaaS outbound messagin
 [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html)
   [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html)
 
+[The first tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1)
+
+If you do not have an OIC environment, you can do the tutorial above. 
+
 [Beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html)
+
+You can begin these tutorials after you spin up OIC.
 
 [Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996)
 You can download pre-made integration recipes from here and customize them to your use case. 
@@ -47,16 +61,15 @@ This is where new features for OIC are announced and very helpful articles. If y
 
 ## Components of OIC
 
-INSERT PIC - if can find online
-
 1. Application integration
 2. VBCS
 3. Insight
+4. The agent
 ....................
 note: Enterprise edition only below
 ....................
-4. Process Automation
-5. The agent
+5. Process Automation
+6. On-premises Enterprise Application adapters 
 
 ## Basic types of integrations
 
@@ -70,7 +83,7 @@ There are more than these, but these have been the typical use case patterns I h
 
 SaaS trigger integrations typically rely upon these factors:
 1. Use of one of the SaaS adapters in trigger or trigger & invoke mode
-2. Configuration on the SaaS to fire off an outbound message or a webhook
+2. Configuration on the SaaS to fire off an outbound message or a webhook to OIC
 3. An event then occuring in the SaaS application that will trigger communication with OIC
 
 [Eloqua saas trigger](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm)
@@ -83,7 +96,9 @@ After installing the agent, you then need to create the rule in Eloqua that trig
 
 [Fusion](https://github.com/GaryHostt/OIC_SaaS_integration)
 
-This workshop shows how to configure Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ.
+This workshop shows how to configure Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
+
+[Configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share)
 
 ### Scheduled
 
@@ -109,29 +124,27 @@ The next use case pattern is basically using OIC as a drag and drop API builder.
 
 [ATP Workshop](https://github.com/GaryHostt/ATPworkshop)
 
-In this workshop, we basically use OIC to create a REST API for an Autonomous Transaction Processing database. 
+In this workshop, we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
 
 [Webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8) can be configured to send payloads to a generic REST endpoint.
 
-[insert video with david]
-
-[insert iot sample data calling oic endpoint, to biquery?]
-
 ## Treatise: developing in OIC
+
+I want to explain how to go about developing for an integration, such as is in [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
 
 When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. 
 
 insert fusion lab, got default stuff from doc to start 
 
-insert this into fusion lab
-
-## Resources
+## Other Resources
 
 [Adapter certifications](https://www.oracle.com/technetwork/middleware/adapters/documentation/adaptercertificationmatrix0217-3613709.pdf)
 
 This is where I go to examine if a SaaS version is compatible with the given adapter.
 
 [Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
+
+[Shalindra's blog](https://shalindrasingh.wordpress.com/)
 
 [Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS)
 
@@ -160,23 +173,17 @@ This is where I go to examine if a SaaS version is compatible with the given ada
 
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
-https://github.com/OracleCPS/oicsaasintegration
+[OIC SaaS Integration](https://github.com/OracleCPS/oicsaasintegration)
 
-https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md
+[Another OIC Workshop](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
 
-https://github.com/OracleCPS
+## Advanced use cases
 
-## Advanced Use case resources
-
-### Setting up the salesforce adapter
-
-[Configuring salesforce business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share)
-
-### Integration with bigquery
+### Integration with bigquery + Oauth2 authentication
 
 [Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
 
-### Embeding forms 
+### Embeding VBCS & Process forms 
 
 [Extending SaaS with VBCS](https://www.ateam-oracle.com/what-you-should-know-when-extending-saas-with-vbcs-%E2%80%93-part-1-the-user-)
 This blog is the first in a series about doing this. The other parts are at the bottom ‘click here to proceed.’
@@ -193,13 +200,13 @@ Steps 1 - 10 of this show how to enable embedding on VBCS
 [Using Process Automation with VBCS](https://www.youtube.com/watch?v=E6Uv7f_3Hs4)
 This video shows how to integrate processes in VBCS (similar to the demo).
 
-### Using publish subscribe
+### Using publish/subscribe
 
 [Part1](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part1)
 
 [Part2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
 
-### Other cuse cases 
+### Other use cases 
 
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
@@ -232,7 +239,7 @@ This provides pre-defined cross-product architectures.
 
 The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communicationg over port 22. The agent ensures your on-premises systems feel as integrated with the cloud as the cloud does.
 
-### Administering OIC
+## Administering OIC
 
 [Turning on/off BYOL metering](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
@@ -248,13 +255,18 @@ Integration roles in IAM (gen2)
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
 
-### Beyond application integration
+## Beyond application integration
 
 [Hybrid & Multi cloud integration](https://medium.com/@bennett.stephen/hybrid-multi-cloud-integration-75290733a41b)
+
 [Data Integration](https://s-bennett.com/data-integration/)
+
 [Managing your integration endpoints with API Gateway](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab301.md)
+
 [Managing your endpoints with APIPCS](https://github.com/OracleCPS/APIPCS-ICS)
 
+[Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
+  [Using the BI Cloud Connector](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
 
 
 
