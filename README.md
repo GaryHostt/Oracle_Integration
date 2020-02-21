@@ -88,7 +88,7 @@ The next use case pattern is basically using OIC as a drag and drop API builder.
 
 [In this workshop](https://github.com/GaryHostt/ATPworkshop), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
 
-[Webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8) can be configured to send payloads to a generic REST endpoint.
+[Webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8) can be configured to send payloads to a generic REST endpoint. These endpoints can also invoked from Postman, SOAP UI, VBCS, your given front end framework of choice, coding language API call, etc.
 
 The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
 
