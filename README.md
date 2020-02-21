@@ -78,7 +78,7 @@ Using Eloqua as a trigger first requires [installing this agent and linking it t
 
 [This workshop](https://github.com/GaryHostt/OIC_SaaS_integration) shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
 
-This video shows you how to start[configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share) as integration triggers. This article explains [configuring Service Cloud outbound communication](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/) to Eloqua.
+This video shows you how to start [configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share) as integration triggers. This article explains [configuring Service Cloud outbound communication](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/) to Eloqua.
 
 ### Scheduled
 
