@@ -248,6 +248,8 @@ You can also call the [Oracle Blockchain platform's API](https://www.youtube.com
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
+[Creating budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure)
+
 [CI/CD for OIC](https://www.youtube.com/watch?v=FiC7PfN7wZ0)
 
 This is an alternative to just using import/export.
