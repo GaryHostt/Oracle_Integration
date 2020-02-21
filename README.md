@@ -152,7 +152,8 @@ This is where I go to examine if a SaaS version is compatible with the given ada
 [Shalindra's blog](https://shalindrasingh.wordpress.com/)
     
 [Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
-  [study guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
+
+  [Certification Study Guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
 
 ## Youtube
 
