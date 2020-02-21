@@ -22,7 +22,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 4. Treatise: developing in OIC
 5. Other resources
 6. Youtube sources
-7. Workshops
+7. Additional Workshops
 8. Advanced use cases
 9. Administering OIC
 10. Beyond Application Integration
@@ -131,7 +131,7 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
 
-## More Workshops
+## Additional Workshops
 
 [HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md)
 
