@@ -271,7 +271,8 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 [Managing your endpoints with APIPCS](https://github.com/OracleCPS/APIPCS-ICS), seen in action [here](https://www.youtube.com/watch?v=dJlAA71whVY)
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
-  [Using the BI Cloud Connector](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
+
+[Using the BI Cloud Connector with Fusion](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
   
 [More from Oracle's Cloud Solution Hubs](https://www.oracle.com/cloud/solution-hubs/demos.html)
 
