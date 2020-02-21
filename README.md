@@ -194,19 +194,24 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 ### Embeding VBCS & Process forms 
 
 [Extending SaaS with VBCS](https://www.ateam-oracle.com/what-you-should-know-when-extending-saas-with-vbcs-%E2%80%93-part-1-the-user-)
+
 This blog is the first in a series about doing this. The other parts are at the bottom ‘click here to proceed.’
 
 [Embedding Process forms](https://javiermugueta.blog/2019/02/07/embedding-process-forms-in-your-applications/)
+
 This describes embedding process forms elsewhere. 
 
 [Embedding your VBCS applications - Youtube](https://www.youtube.com/watch?v=JedAYzZSX6U)
+
 This video shows how to embed your VBCS applications elsewhere. 
 
 [Configuring VBCS for embedding](https://docs.oracle.com/en/cloud/paas/content-cloud/developer/embed-vbcs-page-site-page.html)
+
 Steps 1 - 10 of this show how to enable embedding on VBCS
 
 [Using Process Automation with VBCS](https://www.youtube.com/watch?v=E6Uv7f_3Hs4)
-This video shows how to integrate processes in VBCS (similar to the demo).
+
+This video shows how to integrate processes in VBCS.
 
 ### Using publish/subscribe
 
@@ -260,9 +265,11 @@ The agent is required to integrate with systems not accessible from the internet
 This is an alternative to just using import/export.
 
 Integration roles in IDCS (gen1)
+
 [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
 Integration roles in IAM (gen2)
+
 [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
