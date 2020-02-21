@@ -45,16 +45,11 @@ If you do not have an OIC environment, you can do the tutorial above.
 
 You can begin these tutorials after you spin up OIC.
 
-[Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996)
-You can download pre-made integration recipes from here and customize them to your use case. 
+From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. 
 
-[Managing Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html)
+Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html)
 
-This goes into topics such as scaling, starting/stoping, and how to import/export integrations.
-
-[Integration blog](https://blogs.oracle.com/integration/)
-
-This is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
+The [Integration blog](https://blogs.oracle.com/integration/) is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
 
 [OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html)
 
