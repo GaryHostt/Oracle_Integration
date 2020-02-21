@@ -63,7 +63,7 @@ This is where new features for OIC are announced and very helpful articles. If y
 ## Components of OIC
 
 1. Application integration
-2. VBCS
+2. VBCS - Visual Builder Cloud Service
 3. Insight
 4. The agent
 
