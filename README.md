@@ -271,13 +271,9 @@ The agent is required to integrate with systems not accessible from the internet
 
 This is an alternative to just using import/export.
 
-Integration roles in IDCS (gen1)
+Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
-[IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
-
-Integration roles in IAM (gen2)
-
-[IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
+Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
 
