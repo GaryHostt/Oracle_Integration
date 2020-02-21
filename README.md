@@ -8,7 +8,7 @@
 
 This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html).
 
-OIC is a fully managed service offered by Oracle. You need not worry about HA within the region you subscribe. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), EDQ, and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. OIC offers application integration, typically triggered by an enterprise's business events. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. Of course, the 2 families of products can be used for more than just those use cases, but this is just to give an idea of the difference between application and data integration.
+OIC is a fully managed service offered by Oracle. OIC offers application integration, typically triggered by an enterprise's business events. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), EDQ, and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. Of course, the 2 families of products can be used for more than just those use cases, but this is just to give an idea of the difference between application and data integration.
 
 ## Outline
 
@@ -166,23 +166,23 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw&t=1353s)
 
-## Workshops
+## More Workshops
 
 [HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md)
 
-[Integration workshop](https://github.com/OracleCPS/oracleintegrationday)
+[OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
-[On-premises integration](https://github.com/OracleCPS/oichybridintegration)
+[Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
-[Online shopping](https://github.com/OracleCPS/aiconlineshopping)
-
-[Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
-
-[OIC SaaS Integration](https://github.com/OracleCPS/oicsaasintegration)
-
-[Another OIC Workshop](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+[Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
 [Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS)
+
+[VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
+
+[Basics, database, REST, Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+
+[Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
 ## Advanced use cases
 
