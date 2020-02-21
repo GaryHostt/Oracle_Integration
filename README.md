@@ -1,7 +1,7 @@
 # Oracle_Integration
 
 <p align="center">
-  <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/77.png?raw=true" alt="OIC"/>
+  <img src="https://github.com/GaryHostt/Oracle_Integration/blob/master/screenshots/1.png?raw=true" alt="OIC"/>
 </p>
 
 ## Introduction
