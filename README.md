@@ -66,9 +66,11 @@ This is where new features for OIC are announced and very helpful articles. If y
 2. VBCS
 3. Insight
 4. The agent
+
 ....................
 note: Enterprise edition only below
 ....................
+
 5. Process Automation
 6. On-premises Enterprise Application adapters 
 
