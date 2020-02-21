@@ -187,18 +187,26 @@ This video shows how to integrate processes in VBCS.
 
 ### Other use cases 
 
+[SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
+
+[Sending attachments with notifications](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
+
+[Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
+
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
 You can also give chatbots [custom skills to call APIs](https://github.com/oracle/opa-oda-chat) from conversations - this could include the OIC API.
 
-[VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
+[Using VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
     [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
 
 [Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
 
-[REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
+[Invoking the REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
 
 Example: When a new user is created somewhere - they can then be created in IDCS.
+
+[Calling a serverless function wit hthe REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
 
 [Fusion SOAP API](https://docs.oracle.com/en/cloud/saas/procurement/18b/oeswp/Purchase-Order-Service-Version-2-PurchaseOrderService-svc-3.html)
 
@@ -222,7 +230,9 @@ The agent is required to integrate with systems not accessible from the internet
 
 ## Administering OIC
 
-[Turning on/off BYOL metering](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
+[Administration homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
+
+[BYOL metering, do I qualify? Turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
