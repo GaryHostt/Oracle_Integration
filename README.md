@@ -37,13 +37,13 @@ Perhaps you want to programatically schedule OIC, or even have OIC integrate wit
 
 The [Integration blog](https://blogs.oracle.com/integration/) is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
 
-From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration].(https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html)
+From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html).
 
 ## Components of OIC
 
 1. Application integration
 2. VBCS - Visual Builder Cloud Service
-3. [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/user-int-insight/introduction-integration-insight.html)
+3. [Insight - coming later this spring!](https://docs.oracle.com/en/cloud/paas/integration-cloud/user-int-insight/introduction-integration-insight.html)
 4. The agent
 
 ....................
