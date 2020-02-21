@@ -17,7 +17,7 @@ OIC is a fully managed service offered by Oracle. OIC offers application integra
 3. Basic types of integrations
 4. Treatise: developing in OIC
 5. Other resources
-6. Youtube
+6. Youtube sources
 7. Workshops
 8. Advanced use cases
 9. Administering OIC
