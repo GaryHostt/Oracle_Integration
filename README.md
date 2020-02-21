@@ -8,7 +8,9 @@
 
 This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources. For the past ~2 years I have worked at the Santa Monica Cloud Solution hub, creating [demos like these](https://www.oracle.com/cloud/solution-hubs/demos.html).
 
-Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events. OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. OIC can eliminate the pain points caused by [point-to-point integrations](https://www.christiernan.com/why-point-to-point-integrations-are-evil/). If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/).
+Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events. We have [many successful customers](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories) that have digitally transformed their businesses. 
+
+OIC substantially differs from Oracle's [ODI](https://github.com/GaryHostt/Oracle_Data_Integrator), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/GaryHostt/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. OIC can eliminate the pain points caused by [point-to-point integrations](https://www.christiernan.com/why-point-to-point-integrations-are-evil/). If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/).
 
 If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1). Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
 
@@ -31,15 +33,11 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html). Do you only need to integrate with Oracle SaaS? Check out [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html).
   
-[OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html)
-
-[Customer success stories](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories)
+Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the [OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
 
 The [Integration blog](https://blogs.oracle.com/integration/) is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
 
-What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
-
-From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html)
+From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration].(https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html)
 
 ## Components of OIC
 
