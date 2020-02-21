@@ -90,6 +90,8 @@ The next use case pattern is basically using OIC as a drag and drop API builder.
 
 [Webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8) can be configured to send payloads to a generic REST endpoint.
 
+The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
+
 ## Treatise: developing in OIC
 
 ### Mapping 
@@ -131,9 +133,7 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
 
-[Process Automation Introduction](Process Automation introduction)
-
-[Integration CI/CD](https://www.youtube.com/watch?v=FiC7PfN7wZ0&)
+[Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
 
 ## Additional Workshops
 
@@ -236,6 +236,8 @@ In order to call the OCI REST API, like above, - you have to configure the REST 
 
 An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
 
+You can also call the [Oracle Blockchain platform's API](https://www.youtube.com/watch?v=StxK60ZtBok). 
+
 ## Administering OIC
 
 [Administration homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
@@ -262,7 +264,7 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Managing your integration endpoints with API Gateway](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab301.md)
 
-[Managing your endpoints with APIPCS](https://github.com/OracleCPS/APIPCS-ICS)
+[Managing your endpoints with APIPCS](https://github.com/OracleCPS/APIPCS-ICS), seen in action [here](https://www.youtube.com/watch?v=dJlAA71whVY)
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
   [Using the BI Cloud Connector](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
