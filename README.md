@@ -89,7 +89,7 @@ SaaS trigger integrations typically rely upon these factors:
 2. Configuration on the SaaS to fire off an outbound message or a webhook to OIC
 3. An event then occuring in the SaaS application that will trigger communication with OIC
 
-[Eloqua saas trigger](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm)
+[Eloqua trigger](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm)
 
 Using Eloqua as a trigger rquires installing this and linking it to your OIC environment. 
 
@@ -109,7 +109,7 @@ Schedule integrations are good for sending data from applications to data wareho
 
 1. Pulling from FTP/Writing to FTP/Load data warehouse
 
-[Big Query data load](https://github.com/GaryHostt/BigQueryIntegration)
+[BigQuery data load](https://github.com/GaryHostt/BigQueryIntegration)
 
 This is an example of pulling info from applications and writing them to Google's data warehouse via its REST API. 
 
@@ -121,9 +121,9 @@ OIC can process flat files up to 1 GB in size. For larger files - [check out my 
 
 [File integration for Fusion ERP](https://www.youtube.com/watch?v=7wx-gAT4IdU)
 
-### Generic Rest endpoint to invoke something
+### Generic REST endpoint
 
-The next use case pattern is basically using OIC as a drag and drop API builder. You can use a blank REST adapter at the beginning of your integrations. This can be used to abstract away SOAP endpoitns. 
+The next use case pattern is basically using OIC as a drag and drop API builder. You can use a blank REST adapter at the beginning of your integrations. This can be used to abstract away SOAP endpoints. 
 
 [ATP Workshop](https://github.com/GaryHostt/ATPworkshop)
 
@@ -135,9 +135,11 @@ In this workshop, we basically use OIC to create a REST API for an Autonomous Tr
 
 I want to explain how to go about developing for an integration, such as is in [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
 
-When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. 
+When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. Typically, beginning by searching [the documentation is a good start](https://docs.oracle.com/en/cloud/saas/procurement/19a/oaprc/manage-purchase-orders.html#OAPRC1007407). Looking at the 'Defaults:' we can find the fields required for the lines, schedules, and distributions.
 
-insert fusion lab, got default stuff from doc to start 
+Then, to understand the data types for the fields - or see how they're formatted, I'd call the endpoint to give me one or all of the business object I'm trying to create. In this case, I can look at the [get all POs or get 1 PO endpoints](https://docs.oracle.com/en/cloud/saas/procurement/19d/fapra/api-purchase-orders.html).
+
+Typically for development purposes, I would start this integration with a generic REST adapter that has ~5 fields that map to important fields for the SaaS. After filling out the important ones like POHeaderID, ItemNumber, etc. I activate the integration, then send a payload. Typically, the response will be a 500 error and the response will then contain the field that still requires an attribute. Next, deactivate the integration, map another field from the REST adapter to the business field and then from Postman you can dynamically try different values for that field. Once you find a working value - you can leave it in the submission to the generic REST adapter, or just hardcode it in the adapter. 
 
 ## Other Resources
 
@@ -157,6 +159,8 @@ This is where I go to examine if a SaaS version is compatible with the given ada
 ## Youtube
 
 [Santa Monica Hub Youtube channel](https://www.youtube.com/channel/UCW04sPyVsthkrjPs_Gx-dFA/featured?disable_polymer=1)
+
+This channel can get your started with VBCS, Process Automation, RPA, and more! 
 
 [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
