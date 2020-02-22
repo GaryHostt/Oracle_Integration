@@ -31,7 +31,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 [The main OIC documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html) is your friend.
 
-Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html). Do you only need to integrate with Oracle SaaS? Check out [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html).
+Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html). 
   
 Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the [OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
 
@@ -259,6 +259,8 @@ Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/
 Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
+
+Do you only need to integrate with Oracle SaaS? Check out [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html).
 
 ## Beyond application integration
 
