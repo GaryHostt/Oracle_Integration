@@ -260,8 +260,6 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
 
-Do you only need to integrate with Oracle SaaS? Check out [Oracle Integration for Oracle SaaS](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/oracle-integration-oracle-saas.html).
-
 ## Beyond application integration
 
 [Hybrid & Multi cloud integration](https://medium.com/@bennett.stephen/hybrid-multi-cloud-integration-75290733a41b)
