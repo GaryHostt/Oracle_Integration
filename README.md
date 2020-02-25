@@ -31,7 +31,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 [The main OIC documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html) is your friend.
 
-Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html). 
+Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html), it's based on how many 'messages' you consume. But what is a message and how do you count them? Check out this [explanation](https://blog.rubiconred.com/understanding-oracle-integration-cloud-licensing/).
   
 Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the [OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
 
@@ -51,7 +51,7 @@ note: Enterprise edition only below
 ....................
 
 5. Process Automation
-6. On-premises Enterprise Application adapters 
+6. On-premises Entrise Application adapters 
 
 ## Basic types of integrations - with workshop examples
 
@@ -214,6 +214,8 @@ This provides pre-defined cross-product architectures.
 The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
 
 [Using a Service Gateway to route agent traffice soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
+
+[Using FBDI with ERP](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
 #### Other APIs to call
 
