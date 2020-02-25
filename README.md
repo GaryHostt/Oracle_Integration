@@ -230,7 +230,7 @@ The agent is required to integrate with systems not accessible from the internet
 
 Example: When a new user is created somewhere - they can then be created in IDCS.
 
-[Calling a serverless function wit hthe REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
+[Calling a serverless function with the REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
 
