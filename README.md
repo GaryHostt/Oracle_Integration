@@ -116,6 +116,8 @@ This is where I go to examine if a given SaaS version is compatible with the ada
 [Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
 
 [Shalindra's blog](https://shalindrasingh.wordpress.com/)
+
+[RedThunder blog](https://redthunder.blog/)
     
 [Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
 
@@ -252,7 +254,7 @@ You can also call the [Oracle Blockchain platform's API](https://www.youtube.com
 
 [Creating budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure)
 
-[CI/CD for OIC](https://www.youtube.com/watch?v=FiC7PfN7wZ0)
+[CI/CD for OIC (video)](https://www.youtube.com/watch?v=FiC7PfN7wZ0), CI/CD for OIC [(article)](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/)
 
 This is an alternative to just using import/export.
 
