@@ -203,6 +203,10 @@ You can also give chatbots [custom skills to call APIs](https://github.com/oracl
 
 [Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
 
+[Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/)
+
+[Integration with PeopleSoft, part 2)[https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
+
 [Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
 Have to deal with an oddly formatted flat file or API response? Use a javascript function to convert it to a workable format.
