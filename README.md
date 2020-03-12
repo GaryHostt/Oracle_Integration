@@ -203,9 +203,13 @@ You can also give chatbots [custom skills to call APIs](https://github.com/oracl
 
 [Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
 
-[Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/)
+[Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/) & [Integration with PeopleSoft, part 2](https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
 
-[Integration with PeopleSoft, part 2)[https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
+[Service Cloud to Eloqua, bulk](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-bulk-opportunity-import-using-service-cloud-roql-and-oic/)
+
+[Service Cloud to Eloqua, custom objects](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-custom-object-replication/)
+
+[Service Cloud to Eloqua, contacts](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
 [Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
