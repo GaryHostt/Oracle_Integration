@@ -270,6 +270,8 @@ Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/
 
 Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
+[Error Handling Guide](https://www.ateam-oracle.com/oic-error-handling-guide)
+
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
 
 ## Beyond application integration
