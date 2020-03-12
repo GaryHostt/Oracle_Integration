@@ -191,9 +191,7 @@ This video shows how to integrate processes in VBCS.
 
 [Part2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
 
-### Other use cases 
-
-#### Different ways to use OIC
+### More ways to use OIC
 
 [Sending attachments with notifications](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
@@ -202,14 +200,6 @@ This video shows how to integrate processes in VBCS.
 You can also give chatbots [custom skills to call APIs](https://github.com/oracle/opa-oda-chat) from conversations - this could include the OIC API.
 
 [Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
-
-[Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/) & [Integration with PeopleSoft, part 2](https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
-
-[Service Cloud to Eloqua, bulk](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-bulk-opportunity-import-using-service-cloud-roql-and-oic/)
-
-[Service Cloud to Eloqua, custom objects](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-custom-object-replication/)
-
-[Service Cloud to Eloqua, contacts](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
 [Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
@@ -225,9 +215,21 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Using a Service Gateway to route agent traffice soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
+### Integrating with Oracle Applications
+
+[Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/) & [Integration with PeopleSoft, part 2](https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
+
+[Service Cloud to Eloqua, bulk](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-bulk-opportunity-import-using-service-cloud-roql-and-oic/)
+
+[Service Cloud to Eloqua, custom objects](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-custom-object-replication/)
+
+[Service Cloud to Eloqua, contacts](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
+
 [Using FBDI with ERP](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
-#### Other APIs to call
+[Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
+
+### Integrating with Oracle PaaS
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
 
@@ -241,8 +243,6 @@ The agent is required to integrate with systems not accessible from the internet
 Example: When a new user is created somewhere - they can then be created in IDCS.
 
 [Calling a serverless function with the REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
-
-[Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
 
 [Object Storage with OIC](https://redthunder.blog/2020/01/13/object-storage-with-oracle-integration-cloud-part-1/)
 
