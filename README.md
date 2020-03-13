@@ -139,19 +139,23 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 ## Additional Workshops
 
-[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
-
-[OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
-
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
-[Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
-
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
+The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its features. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
 [Basics, database, REST, Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+
+.......
+
+[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
+
+[OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
+
+[Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
+
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
 
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
