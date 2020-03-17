@@ -1,7 +1,7 @@
 
 # Summary on how errors, parallelism, synchronicity & error handling works in OIC
 
-Situation of concern, how to handle a file upload if a row is messed up or something else in an integration fails?
+Situation of concern, how to handle a file upload if a row is messed up or something else in a integration fails? The one outlined below is a scheduled orchestration that was triggered manually for the following tests.
 
 ### Different scenarios examined:
 	Error in csv, stopping with switch statement
