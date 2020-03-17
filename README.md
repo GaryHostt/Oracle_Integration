@@ -154,7 +154,7 @@ The above workshop, labs 100 & 300 contains great starters for basic Application
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
-[Various Fusion integrations](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+[Various Fusion integrations + Apiary](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
