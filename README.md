@@ -24,8 +24,9 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 6. Youtube sources
 7. Additional Workshops
 8. Advanced use cases
-9. Administering OIC
-10. Beyond Application Integration
+9. Error Handling
+10. Administering OIC
+11. Beyond Application Integration
 
 ## General resources
 
@@ -80,7 +81,7 @@ Schedule integrations are good for sending data from applications to data wareho
 
 [This workshop](https://github.com/GaryHostt/BigQueryIntegration) is an example of pulling info from an FTP server and writing them to Google's data warehouse, BigQuery, via its REST API. However, for files larger than that and less than 1 GB - you will need the 'stage file' operation in order to read the file - as shown in [this YouTube video](https://www.youtube.com/watch?v=hE5nF-henFw&feature=share). Besides reading files, you can [write them to an FTP after invoking data (seen in this video)](https://www.youtube.com/watch?v=7wx-gAT4IdU), and [list files - even from multiple directories](https://www.techsupper.com/2019/05/how-to-list-files-from-ftp-resides-in-multiple-directories-oracle-integration-cloud.html). 
 
-OIC can process flat files up to 1 GB in size. For larger files than that - [check out my data integration repo](https://github.com/GaryHostt/Oracle_Data_Integrator). 
+OIC can process flat files up to 1 GB in size. For larger files than that - [check out my data integration repo](https://github.com/GaryHostt/Oracle_Data_Integrator). [What if errors occur in my scheduled integration?](https://github.com/GaryHostt/Oracle_Integration/blob/master/Errors.md)
 
 ### Generic REST endpoint
 
@@ -274,9 +275,13 @@ Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/
 
 Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
+## Error Handling in OIC
+
 [Error Handling Guide](https://www.ateam-oracle.com/oic-error-handling-guide)
 
 [Error management](https://blogs.oracle.com/integration/oic-bulk-recovery-of-fault-instances)
+
+[Real examples of error with & without error handling](https://github.com/GaryHostt/Oracle_Integration/blob/master/Errors.md)
 
 ## Beyond application integration
 
