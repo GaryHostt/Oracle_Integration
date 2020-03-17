@@ -154,6 +154,8 @@ The above workshop, labs 100 & 300 contains great starters for basic Application
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
+[Various Fusin integrations](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
 [Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
