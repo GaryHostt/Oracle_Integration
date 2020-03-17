@@ -154,7 +154,9 @@ The above workshop, labs 100 & 300 contains great starters for basic Application
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
-[Various Fusion integrations + Apiary](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+[The varieties of Fusion ERP integrations + Apiary](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+
+The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations.
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
