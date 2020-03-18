@@ -144,7 +144,7 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
-The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its features. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
+The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its features. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems. These three workshops are good starters to learn about the components of OIC and how to leverage them with more advanced use cases.
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
@@ -158,15 +158,21 @@ The above workshop, labs 100 & 300 contains great starters for basic Application
 
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
-The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations.
+The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows how to use the SOAP adapter with Fusion, invoke Fusion's REST API, use the ERP adapter for querying, FBDI imports, and business events firing to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
+The agent enables communication with systems not visible through the internet, via port 22. 
+
 [Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
+
+[Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
+
+This workshop shows how to use the Oauth2 policy with the OIC REST adapter and the basics of scheduled integrations.
 
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
-[Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
+In this followup, my python script only needs to worry about the basic auth to the OIC API. OIC is taking care of Oauth2 with BigQuery.
 
 ## Advanced use cases
 
