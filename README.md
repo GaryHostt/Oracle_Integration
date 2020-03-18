@@ -130,6 +130,8 @@ This is where I go to examine if a given SaaS version is compatible with the ada
 
 This channel can get your started with VBCS, Process Automation, RPA, and more! 
 
+[Oracle Cloud TechSupper Ankur](https://www.youtube.com/channel/UCo3xxBD5yqhofSyA_M6C10Q)
+
 [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
 [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
