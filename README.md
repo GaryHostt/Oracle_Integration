@@ -301,6 +301,8 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Managing your integration endpoints with API Gateway](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab301.md)
 
+[Getting started with APIPCS + Apiary](https://github.com/OracleCPS/End-to-end-API-Workshop/tree/master/workshop)
+
 [Managing your endpoints with APIPCS](https://github.com/OracleCPS/APIPCS-ICS), seen in action [here](https://www.youtube.com/watch?v=dJlAA71whVY)
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
