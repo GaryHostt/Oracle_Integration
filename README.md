@@ -240,6 +240,8 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Service Cloud to Eloqua, contacts](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
+[Netsuite real time integration](https://www.ateam-oracle.com/netsuite-integration-series-part-1)
+
 [Using FBDI with ERP](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
