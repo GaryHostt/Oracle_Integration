@@ -230,7 +230,9 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Using a Service Gateway to route agent traffice soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
-### Integrating with Oracle Applications
+### Integrating with Applications
+
+#### Oracle
 
 [Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/) & [Integration with PeopleSoft, part 2](https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
 
@@ -245,6 +247,10 @@ The agent is required to integrate with systems not accessible from the internet
 [Using FBDI with ERP](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
+
+#### Non-Oracle
+
+[Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
 
 ### Integrating with Oracle PaaS
 
