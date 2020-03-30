@@ -156,6 +156,10 @@ The above workshop, labs 100 & 300 contains great starters for basic Application
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
+[Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
+
+This workshop contains the common ERP Cloud integration patterns.
+
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
 The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows how to use the SOAP adapter with Fusion, invoke Fusion's REST API, use the ERP adapter for querying, FBDI imports, and business events firing to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
