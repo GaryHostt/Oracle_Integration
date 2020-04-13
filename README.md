@@ -232,7 +232,7 @@ This provides pre-defined cross-product architectures.
 
 The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
 
-[Using a Service Gateway to route agent traffice soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
+[Using a Service Gateway to route agent traffic soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
 ### Integrating with Applications
 
