@@ -258,6 +258,8 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
 
+[Robotic Process Automation with the UiPath adapter](https://www.ateam-oracle.com/integrating-oracle-integration-cloud-integration-with-uipath)
+
 ### Integrating with Oracle PaaS
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
