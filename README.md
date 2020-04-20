@@ -252,6 +252,8 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
 
+[Using HCM ATOM feeds in OIC](http://niallcblogs.blogspot.com/2019/01/677-consume-hcm-atom-feeds-in-oracle.html)
+
 #### Non-Oracle
 
 [Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
