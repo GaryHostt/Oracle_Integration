@@ -325,7 +325,7 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
 
-[Using the BI Cloud Connector with Fusion](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
+[Using the BI Cloud Connector with Fusion, BICC](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
 
 [Build an APEX app in 30 minutes](https://github.com/fatih-keles/30-min-workshops)
   
