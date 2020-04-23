@@ -260,6 +260,8 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Robotic Process Automation with the UiPath adapter](https://www.ateam-oracle.com/integrating-oracle-integration-cloud-integration-with-uipath)
 
+[Making a connection with the Workday adapter](https://shalindrasingh.wordpress.com/2017/11/21/oracle-cloud-adapter-for-workday-important-things-to-not/)
+
 ### Integrating with Oracle PaaS
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
