@@ -53,6 +53,7 @@ note: Enterprise edition only below
 
 5. Process Automation
 6. On-premises Entrise Application adapters 
+7. [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
 ## Basic types of integrations - with workshop examples
 
