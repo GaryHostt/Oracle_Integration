@@ -290,6 +290,10 @@ You can also call the [Oracle Blockchain platform's API](https://www.youtube.com
 
 [Administration homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
 
+[OIC API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/)
+
+The API documentation above can be used to automate turning off/on your Integration instance or change the compartment where it's located. 
+
 [BYOL metering, do I qualify? Turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
