@@ -215,6 +215,8 @@ This video shows how to integrate processes in VBCS.
 
 [Sending attachments with notifications](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
+[Invoking OIC endpoints with Oauth & IDCS](https://www.ateam-oracle.com/trigger-oic-integration-using-oauth)
+
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
 You can also give chatbots [custom skills to call APIs](https://github.com/oracle/opa-oda-chat) from conversations - this could include the OIC API.
