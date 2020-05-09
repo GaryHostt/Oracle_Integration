@@ -274,6 +274,8 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 [Sending attachments with notification emails](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
+[Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
+
 [Invoking OIC endpoints with Oauth & IDCS](https://www.ateam-oracle.com/trigger-oic-integration-using-oauth)
 
 - This is an alternative to the basic auth policy that is normally used by a non-federated IDCS user that calls your integration endpoints. 
@@ -281,8 +283,6 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
 - You can also give chatbots [custom skills to call APIs](https://github.com/oracle/opa-oda-chat) from conversations - this could include the OIC API.
-
-[Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
 
 [Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
@@ -294,9 +294,11 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 [Using a Service Gateway to route agent traffic soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
+- If you need to use the OIC agent in your OCI VCN, the Service Gateway ensures communication isn't routed over the internet.
+
 ## Integration Walk-throughs
 
-These are less detailed than the previous workshops, but are useful for starting use cases with the systems below.
+These are less detailed than the previous workshops, but are very useful for starting use cases with the systems below.
 
 ### Oracle Apps with OIC
 
