@@ -192,7 +192,7 @@ The 4 workshops below are excellent for getting started with the various compone
 
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
-- The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows invoke Fusion's REST API, use the ERP adapter for querying, and business events firing to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
+- The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows invoke Fusion's REST API, how to use the ERP adapter for querying data and using FBDI, how a business event could fire to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
