@@ -210,7 +210,7 @@ The 4 workshops below are excellent for getting started with the various compone
 
 ### Embeding VBCS & Process forms 
 
-- Being able to embed VBCS & Process forms is a powerful feature - imagine a company is doing a Lift and Shift of EBS to Cloud ERP over the course of 6 months. As they move different modules, new business users can interact with forms embedded in Cloud ERP that are actually integrated to call endpoints in EBS. This means that EBS is integrated with ERP - without even being noticed. This effectively places the functionality of the non-migrated parts of EBS inside of Cloud ERP.
+Being able to embed VBCS & Process forms is a powerful feature - imagine a company is doing a Lift and Shift of EBS to Cloud ERP over the course of 6 months. As they move different modules, new business users can interact with forms embedded in Cloud ERP that are actually integrated to call endpoints in EBS. This means that EBS is integrated with ERP - without even being noticed. This effectively places the functionality of the non-migrated parts of EBS inside of Cloud ERP.
 
 [Extending SaaS with VBCS](https://www.ateam-oracle.com/what-you-should-know-when-extending-saas-with-vbcs-%E2%80%93-part-1-the-user-)
 
