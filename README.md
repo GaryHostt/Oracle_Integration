@@ -140,17 +140,17 @@ This is where I go to examine if a given SaaS version is compatible with the ada
 
 This channel will show you VBCS, Process Automation, RPA, and other demos in action! 
 
-  [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
+  - [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
 
-  [Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok)
+  - [Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok)
   
-  [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
+  - [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
 
 [Oracle Cloud TechSupper Ankur](https://www.youtube.com/channel/UCo3xxBD5yqhofSyA_M6C10Q)
 
-  [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
+  - [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
 
-  [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
+  - [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
 
 [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
