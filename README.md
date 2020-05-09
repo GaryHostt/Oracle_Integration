@@ -29,8 +29,9 @@ For Fusion application users seeking to move ***large*** quantities of data, cli
 7. **Additional Workshops**
 8. **Advanced use cases**
 9. Error Handling
-10. Administering OIC
-11. Beyond Application Integration
+10. **Walk-throughs**
+11. Administering OIC
+12. Beyond Application Integration
 
 ## General resources
 
@@ -145,6 +146,8 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
 
+[Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok) 
+
 ## Additional Workshops
 
 ### Beginner Workshops
@@ -257,9 +260,9 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Using a Service Gateway to route agent traffic soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
-### Integrating with Applications
+## Integration Walk-throughs - Integrating with Applications
 
-#### Oracle
+### Oracle Apps with OIC
 
 [Integration with PeopleSoft, part 1](https://redthunder.blog/2018/08/28/peoplesoft-integration-using-oracle-integration-cloud-part-1/) & [Integration with PeopleSoft, part 2](https://redthunder.blog/2018/09/06/peoplesoft-integration-using-oracle-integration-cloud-part-2/)
 
@@ -271,13 +274,13 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Netsuite real time integration](https://www.ateam-oracle.com/netsuite-integration-series-part-1)
 
-[Using FBDI with ERP](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
+[Using FBDI with ERP in OIC](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
 
 [Using HCM ATOM feeds in OIC](http://niallcblogs.blogspot.com/2019/01/677-consume-hcm-atom-feeds-in-oracle.html)
 
-#### Non-Oracle
+### Non-Oracle Apps with OIC
 
 [Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
 
@@ -285,7 +288,7 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Making a connection with the Workday adapter](https://shalindrasingh.wordpress.com/2017/11/21/oracle-cloud-adapter-for-workday-important-things-to-not/)
 
-### Integrating with Oracle PaaS
+### Oracle PaaS with OIC
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
 
@@ -306,8 +309,6 @@ In order to call the OCI REST API, like above, - you have to configure the REST 
 
 An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
 
-You can also call the [Oracle Blockchain platform's API](https://www.youtube.com/watch?v=StxK60ZtBok). 
-
 ## Administering OIC
 
 [Administration homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
@@ -316,15 +317,15 @@ You can also call the [Oracle Blockchain platform's API](https://www.youtube.com
 
 The API documentation above can be used to automate turning off/on your Integration instance or change the compartment where it's located. 
 
-[BYOL metering, do I qualify? Turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
+Those using previous SOA licences are eligible for [BYOL metering, do I qualify? Turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
-[Creating budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure)
+To control and monitor costs, you can[create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/IntegrationInstance/StartIntegrationInstance).
 
 [CI/CD for OIC (video)](https://www.youtube.com/watch?v=FiC7PfN7wZ0), CI/CD for OIC [(article)](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/)
 
-This is an alternative to just using import/export.
+This is an alternative and improvement to just using the import/export feature for integrations, processes, and VBCS apps.
 
 Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
@@ -340,10 +341,6 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 ## Beyond application integration
 
-[Hybrid & Multi cloud integration](https://medium.com/@bennett.stephen/hybrid-multi-cloud-integration-75290733a41b)
-
-[Data Integration](https://s-bennett.com/data-integration/)
-
 [Managing your integration endpoints with API Gateway](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab301.md)
 
 [Getting started with APIPCS + Apiary](https://github.com/OracleCPS/End-to-end-API-Workshop/tree/master/workshop)
@@ -352,11 +349,13 @@ Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en
 
 [Other Fusion integration methods](https://shalindrasingh.wordpress.com/2019/03/12/all-you-need-to-know-about-integrating-oracle-erp-cloud/)
 
-[Using the BI Cloud Connector with Fusion, BICC](https://www.ateam-oracle.com/bi-cloud-connector-download-data-extraction-files)
-
 [Build an APEX app in 30 minutes](https://github.com/fatih-keles/30-min-workshops)
   
 [More from Oracle's Cloud Solution Hubs](https://www.oracle.com/cloud/solution-hubs/demos.html)
+
+[Hybrid & Multi cloud integration](https://medium.com/@bennett.stephen/hybrid-multi-cloud-integration-75290733a41b)
+
+[Data Integration](https://s-bennett.com/data-integration/)
 
 
 
