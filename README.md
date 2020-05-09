@@ -23,7 +23,7 @@ Click [here to learn about managing OIC from the OCI console](https://docs.cloud
 1. General Resources
 2. Components of OIC
 3. **Basic types of integrations - with workshop examples**
-4. Treatise: developing in OIC
+4. Treatise: [my own](https://www.linkedin.com/in/robertamacdonald94/) views on developing in OIC
 5. Other resources
 6. Youtube sources
 7. **Additional Workshops**
