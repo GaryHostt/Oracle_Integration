@@ -242,7 +242,7 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 ### More ways to use OIC
 
-[Sending attachments with notifications](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
+[Sending attachments with notification emails](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
 [Invoking OIC endpoints with Oauth & IDCS](https://www.ateam-oracle.com/trigger-oic-integration-using-oauth)
 
