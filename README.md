@@ -99,7 +99,7 @@ The generic REST trigger can also be used to create SaaS trigger integrations wi
 
 The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
 
-## Treatise: developing in OIC
+## Treatise: developing in OIC, [my own](https://www.linkedin.com/in/robertamacdonald94/) views
 
 ### Mapping 
 I want to explain how to go about developing for an integration, such as is in [**this lab**](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
@@ -113,6 +113,10 @@ Typically for development purposes, I would start this integration with a generi
 ### If your integration is not appearing in tracking after performing the trigger action in SaaS
 
 If you create a contact in Fusion, or a new lead in salesforce, but the business event isn't appearing in tracking - you need to verify that you properly configured the SaaS. You should also check if you are logged in as the user on the SaaS that you used to create the connection on OIC.
+
+### Learning OIC as a business user
+
+Before working with Oracle Integration, my previous career technical experience mainly resolved around DBA work. When I started working at Oracle and with OIC, I began interacting with APIs more. Learning API development via OIC as my primary medium enabled me to learn how to use APIs faster rather than via minutiae of coding. Any user of OIC will have to read API documentation for the application with which they want to integrate, but if you are a business user that does not know how to code - OIC can become your greatest tool for interacting with APIs and automating your business processes. If you are a business user that is trying out OIC and doesn't know where to start, proceed to the 'Beginner Workshops' section below, and in no time you'll be accelerating your time to market.
 
 ## Other Resources
 
@@ -128,7 +132,7 @@ This is where I go to examine if a given SaaS version is compatible with the ada
     
 [Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
 
-  [Certification Study Guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
+[Certification Study Guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
 
 ## Youtube
 
