@@ -14,9 +14,7 @@ OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle
 
 If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/). OIC can also complement [cloud native applications deployed on OCI](https://garyhostt.github.io/OCI_DevOps/).
 
-If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1) that simulates an environment for you. You can follow [these instructions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/create-oracle-integration-instance.html#GUID-EC63C933-34BF-4B13-94F7-E2979A1668DB) so spin up an instance. Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
-
-Click [here to learn about managing OIC from the OCI console](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), rather than platform services, and click here to learn about using the [new API for OIC](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/).
+If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1) that simulates an environment for you. You can follow [these instructions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/create-oracle-integration-instance.html#GUID-EC63C933-34BF-4B13-94F7-E2979A1668DB) so spin up an instance. Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html) or the 'Beginner Workshops' later in this repository.
 
 ## Outline
 
@@ -30,7 +28,7 @@ Click [here to learn about managing OIC from the OCI console](https://docs.cloud
 8. **Advanced use cases**
 9. Error Handling
 10. **Walk-throughs**
-11. Administering OIC
+11. **Administering OIC**
 12. Beyond Application Integration
 
 ## General resources
@@ -319,25 +317,21 @@ An event that occurs in OCI could also be fired to an [integration REST endpoint
 
 ## Administering OIC
 
-[Administration homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
+Click [here to learn about managing OIC from the OCI console](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), rather than platform services, and click here to learn about using the [new API for OIC](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/). The API documentation can be used create new instances, change the compartment where OIC is located in OIC, and more. 
 
-[OIC API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/)
+[Administration documentation homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
 
-The API documentation above can be used to automate turning off/on your Integration instance or change the compartment where it's located. 
-
-Those using previous SOA licences are eligible for [BYOL metering, do you qualify? How to turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
+Those using previous SOA licences are eligible for [BYOL metering, do you qualify? How to turn it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
 To control and monitor costs, you can[create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/IntegrationInstance/StartIntegrationInstance).
 
-[CI/CD for OIC (video)](https://www.youtube.com/watch?v=FiC7PfN7wZ0), CI/CD for OIC [(article)](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/)
+CI/CD for OIC is an improvement to just using the import/export feature, shown in this [video](https://www.youtube.com/watch?v=FiC7PfN7wZ0) and this [article](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/).
 
-CI/CD is an improvement to just using the import/export feature for integrations, processes, and VBCS apps.
+[IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
-Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
-
-Integration roles in IAM (gen2) - [IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
+[IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
 
 ## Error Handling in OIC
 
