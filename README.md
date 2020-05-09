@@ -10,13 +10,13 @@ This guide acts as a repository for getting started with Oracle Integration and 
 
 Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events, and it can eliminate the pain points caused by [point-to-point integrations](https://www.christiernan.com/why-point-to-point-integrations-are-evil/). We have [many successful customers](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories) that have digitally transformed their businesses. 
 
-OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle_Data_Integrator/), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/zzhangjii/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/). OIC can also complement [cloud native applications deployed on OCI](https://garyhostt.github.io/OCI_DevOps/).
+OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle_Data_Integrator/), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/zzhangjii/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. 
+
+If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/). OIC can also complement [cloud native applications deployed on OCI](https://garyhostt.github.io/OCI_DevOps/).
 
 If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1) that simulates an environment for you. You can follow [these instructions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/create-oracle-integration-instance.html#GUID-EC63C933-34BF-4B13-94F7-E2979A1668DB) so spin up an instance. Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
 
 Click [here to learn about managing OIC from the OCI console](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), rather than platform services, and click here to learn about using the [new API for OIC](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/).
-
-For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. 
 
 ## Outline
 
@@ -102,7 +102,7 @@ The generic REST endpoint can also be the beginning of creating an omni-channel 
 ## Treatise: developing in OIC
 
 ### Mapping 
-I want to explain how to go about developing for an integration, such as is in [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
+I want to explain how to go about developing for an integration, such as is in [**this lab**](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration). How does one know what fields to have in the mapper when you have a generic endpoint going to a SaaS API?
 
 When trying to invoke a SaaS endpoint - perhaps with a generic REST trigger, you may find that you are inundated with hundreds of fields in the mapper you do not know. Typically, beginning by searching [the documentation is a good start](https://docs.oracle.com/en/cloud/saas/procurement/19a/oaprc/manage-purchase-orders.html#OAPRC1007407). Looking at the 'Defaults:' we can find the fields required for the lines, schedules, and distributions. If you are calling a SOAP API and simply want to abstract it away as a REST API - simply make the request payload have the same fields that the SOAP API has and then press the recommend button - it should work for the fields if they are about a 1:1 ratio and have identical names.
 
