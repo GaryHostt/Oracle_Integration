@@ -116,7 +116,9 @@ If you create a contact in Fusion, or a new lead in salesforce, but the business
 
 ### Learning OIC as a business user
 
-Before working with Oracle Integration, my previous career technical experience mainly resolved around DBA work. When I started working at Oracle and with OIC, I began interacting with APIs more. Learning API development via OIC as my primary medium enabled me to learn how to use APIs faster rather than via minutiae of coding. Any user of OIC will have to read API documentation for the application with which they want to integrate, but if you are a business user that does not know how to code - OIC can become your greatest tool for interacting with APIs and automating your business processes. If you are a business user that is trying out OIC and doesn't know where to start, proceed to the 'Beginner Workshops' section below, and in no time you'll be accelerating your time to market.
+Before working with Oracle Integration, my previous career technical experience mainly resolved around DBA work. When I started working at Oracle and with OIC, I began interacting with APIs more. Learning API development via OIC as my primary medium enabled me to learn how to use APIs faster rather than via minutiae of coding. Any user of OIC will have to read API documentation for the application with which they want to integrate, but if you are a business user that does not know how to code - OIC can become your greatest tool for interacting with APIs and automating your business processes. 
+
+*If you are a business user that is trying out OIC and doesn't know where to start, proceed to the 'Beginner Workshops' section below, and in no time you'll be accelerating your time to market.*
 
 ## Other Resources
 
