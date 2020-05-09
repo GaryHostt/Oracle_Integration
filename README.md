@@ -331,11 +331,11 @@ These are less detailed than the previous workshops, but are useful for starting
 [Oauth2 token with the REST adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsre/configuring-rest-adapter-consume-rest-api-protected-using-2-legged-oauth-token-based-authentication.html)
 
 [Using VBCS with Fusion](https://www.ateam-oracle.com/the-cloud-native-approach-to-extending-your-saas-applications)
-    [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
+  - [Supplemental material on cloud native architecture](https://github.com/GaryHostt/OCI_DevOps)
 
 [Invoking the REST API for IDCS](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/op-admin-v1-users-post.html)
 
-Example: When a new user is created somewhere - they can then be created in IDCS.
+- Example: When a new user is created somewhere - they can then be created in IDCS.
 
 [Calling a serverless function with the REST adapter](https://github.com/GaryHostt/OCI_DevOps/blob/master/304.md)
 
@@ -355,7 +355,7 @@ Those using previous SOA licences are eligible for [BYOL metering, do you qualif
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
-To control and monitor costs, you can[create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/IntegrationInstance/StartIntegrationInstance).
+To control and monitor costs, you can [create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/IntegrationInstance/StartIntegrationInstance).
 
 CI/CD for OIC is an improvement to just using the import/export feature, shown in this [video](https://www.youtube.com/watch?v=FiC7PfN7wZ0) and this [article](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/).
 
