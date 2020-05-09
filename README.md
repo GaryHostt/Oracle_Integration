@@ -23,7 +23,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 5. Other resources
 6. Youtube sources
 7. **Additional Workshops**
-8. Advanced use cases
+8. **Advanced use cases**
 9. Error Handling
 10. Administering OIC
 11. Beyond Application Integration
@@ -34,7 +34,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html), it's based on how many 'messages' you consume. But what is a message and how do you count them? Check out this [explanation](https://blog.rubiconred.com/understanding-oracle-integration-cloud-licensing/).
   
-Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the [OIC REST API documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
+Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the OIC REST API documentation [here](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html) or [here](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
 
 The [Integration blog](https://blogs.oracle.com/integration/) is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
 
@@ -143,11 +143,13 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 ## Additional Workshops
 
+### Beginner Workshops
+
 The 4 workshops below are excellent for getting started with various components of OIC, they seek to minimize reliance on having pre-existing external systems with which to integrate. 
 
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
-The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its features. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems. These three workshops are good starters to learn about the components of OIC and how to leverage them with more advanced use cases.
+The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its toolset such as switch statements, javascript labraries, and more. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems. These three workshops are good starters to learn about the components of OIC and how to leverage them with more advanced use cases.
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
@@ -161,15 +163,15 @@ The above workshop is excellent at continuing the previous use cases you've lear
 
 The above is the best workshop for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
 
-.......
+### Advanced workshops
 
 [HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
 
-This lab captures new employees from HCM and creates them in EBS.
+This lab shows how to use OIC to capture new employees created in HCM and then create them in EBS.
 
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
 
-This shows how to use HCM ATOM feeds.
+This shows how to use HCM ATOM feeds and make connections with other SaaS adapters.
 
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
 
@@ -177,15 +179,15 @@ This workshop contains the common ERP Cloud integration patterns with the OIC ad
 
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
-The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows how to use the SOAP adapter with Fusion, invoke Fusion's REST API, use the ERP adapter for querying, FBDI imports, and business events firing to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
+The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows invoke Fusion's REST API, use the ERP adapter for querying, and business events firing to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
-The agent enables communication with systems not visible through the internet, via port 22. 
+The agent enables communication with systems not visible through the internet, via port 22. This lab shows how to use the Oracle Database adapter, and should done only after watching this short [video](https://www.youtube.com/watch?v=nYmOgX95wd4). Note: the UI in this workshop is dated.  
 
-[Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
+[Scheduled FTP Integration to BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
 
-This workshop shows how to use the Oauth2 policy with the OIC REST adapter and the basics of scheduled integrations.
+This workshop shows how to use the Oauth2 policy with the OIC REST adapter, the basics of scheduled integrations with the FTP adapter, and how to integrate with GCP's BigQuery.
 
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
@@ -219,6 +221,8 @@ This video shows how to integrate processes in VBCS.
 
 ### Using publish/subscribe
 
+Oracle Integration comes with a built in messaging system to enable publisher, topic, subscriber deployment patterns.
+
 [Part1](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part1)
 
 [Part2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
@@ -237,7 +241,7 @@ You can also give chatbots [custom skills to call APIs](https://github.com/oracl
 
 [Using a javascript function in OIC](https://blogs.oracle.com/integration/using-a-library-in-oic)
 
-Have to deal with an oddly formatted flat file or API response? Use a javascript function to convert it to a workable format.
+Have to deal with an oddly formatted flat file or API response, or need to generate a random number? Use a javascript function!
 
 [Oracle Integration Solutions Catalog](https://docs.oracle.com/en/solutions/index.html?product=Oracle%20Integration&technology=PaaS&page=0&is=true&sort=0)
 
