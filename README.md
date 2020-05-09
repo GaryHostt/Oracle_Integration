@@ -260,7 +260,9 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Using a Service Gateway to route agent traffic soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
-## Integration Walk-throughs - Integrating with Applications
+## Integration Walk-throughs
+
+These are less detailed than the previous workshops, but useful for starting.
 
 ### Oracle Apps with OIC
 
@@ -288,7 +290,7 @@ The agent is required to integrate with systems not accessible from the internet
 
 [Making a connection with the Workday adapter](https://shalindrasingh.wordpress.com/2017/11/21/oracle-cloud-adapter-for-workday-important-things-to-not/)
 
-### Oracle PaaS with OIC
+### More Oracle with OIC
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
 
@@ -307,7 +309,7 @@ Example: When a new user is created somewhere - they can then be created in IDCS
 
 In order to call the OCI REST API, like above, - you have to configure the REST adapter connection to use the [OCI Signature Version 1 security policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84). This policy enables you to use Oracle Cloud Infrastructure services. For example, you can create an integration that lists your VCNs. 
 
-An event that occurs in OCI can also be fired to an [integration HTTPS endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
+An event that occurs in OCI could also be fired to an [integration REST endpoint](https://github.com/GaryHostt/OCI_DevOps/blob/master/Lab100.md).
 
 ## Administering OIC
 
@@ -317,7 +319,7 @@ An event that occurs in OCI can also be fired to an [integration HTTPS endpoint]
 
 The API documentation above can be used to automate turning off/on your Integration instance or change the compartment where it's located. 
 
-Those using previous SOA licences are eligible for [BYOL metering, do I qualify? Turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
+Those using previous SOA licences are eligible for [BYOL metering, do you qualify? How to turning it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
@@ -325,7 +327,7 @@ To control and monitor costs, you can[create budgets and budget alerts in OCI](h
 
 [CI/CD for OIC (video)](https://www.youtube.com/watch?v=FiC7PfN7wZ0), CI/CD for OIC [(article)](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/)
 
-This is an alternative and improvement to just using the import/export feature for integrations, processes, and VBCS apps.
+CI/CD is an improvement to just using the import/export feature for integrations, processes, and VBCS apps.
 
 Integration roles in IDCS (gen1) - [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
