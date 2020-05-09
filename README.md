@@ -14,6 +14,8 @@ OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle
 
 If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1). You can follow [these instructions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/create-oracle-integration-instance.html#GUID-EC63C933-34BF-4B13-94F7-E2979A1668DB) so spin up an instance. Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html).
 
+For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction.
+
 ## Outline
 
 1. General Resources
