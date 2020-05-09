@@ -25,7 +25,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 5. Other resources
 6. Youtube sources
 7. **Additional Workshops**
-8. **Advanced use cases**
+8. Advanced use cases
 9. Error Handling
 10. **Walk-throughs**
 11. **Administering OIC**
