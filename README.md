@@ -120,31 +120,43 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
 ## Other Resources
 
-[Adapter certifications](https://www.oracle.com/technetwork/middleware/adapters/documentation/adaptercertificationmatrix0217-3613709.pdf)
+[Adapter Matrix](https://www.oracle.com/technetwork/middleware/adapters/documentation/adaptercertificationmatrix0217-3613709.pdf)
 
-This is where I go to examine if a given SaaS version is compatible with the adapter.
+  - This is where I go to examine if a given SaaS/application version is compatible with the given adapter.
 
 [Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
 
 [Shalindra's blog](https://shalindrasingh.wordpress.com/)
 
 [RedThunder blog](https://redthunder.blog/)
+
+### Certification & training
     
-[Oracle Integration Certification](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
+[Oracle Integration Certification resources](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
+
+[Oracle training on OIC](https://education.oracle.com/integration/integration-cloud/product_704)
 
 [Certification Study Guide](https://www.techsupper.com/2020/02/oracle-cloud-platform-application-integration-2019-associate.html)
+
+[k21academy, certification notes](https://k21academy.com/1z0997-oci-professional-training/)
+
+[Buy certification exam voucher](https://education.oracle.com/oracle-cloud-platform-application-integration-2019-associate/pexam_1Z0-1042)
 
 ## Youtube
 
 [Santa Monica Hub - Application Integration - Youtube channel](https://www.youtube.com/channel/UCW04sPyVsthkrjPs_Gx-dFA/featured?disable_polymer=1)
 
-This channel will show you VBCS, Process Automation, RPA, and other demos in action! 
+This channel will show you VBCS, Process Automation, RPA, and other demos in action! See some videos below
 
   - [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
 
   - [Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok)
   
   - [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
+  
+  - [Best video for installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
+
+  -- The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
 
 [Oracle Cloud TechSupper Ankur](https://www.youtube.com/channel/UCo3xxBD5yqhofSyA_M6C10Q)
 
@@ -156,13 +168,13 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
 
 ## Additional Workshops
 
-### Beginner Workshops
+The workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. 
 
-The 4 workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. 
+### Beginner Workshops
 
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
-- The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its toolset such as switch statements, javascript labraries, and more. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
+- Here, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its toolset such as switch statements, javascript labraries, and more. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
@@ -170,11 +182,11 @@ The 4 workshops below are excellent for getting started with the various compone
 
 [Database, REST, advanced Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
 
-- The above workshop is excellent at continuing the previous use cases you've learned in process, but with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Process database.
+- Here you continue the previous use cases you've learned in process, but now with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Processing, ATP, database.
 
 [Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
 
-- The above is the best workshop for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
+- This workshop is for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
 
 ### Advanced workshops
 
@@ -261,10 +273,6 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 [Oracle Integration Solutions Catalog](https://docs.oracle.com/en/solutions/index.html?product=Oracle%20Integration&technology=PaaS&page=0&is=true&sort=0)
 
 - This provides pre-defined cross-product architectures.
-
-[Best video for installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
-
-- The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
 
 [Using a Service Gateway to route agent traffic soley over OCI](https://blogs.oracle.com/cloud-infrastructure/access-oracle-services-privately-with-a-service-gateway)
 
