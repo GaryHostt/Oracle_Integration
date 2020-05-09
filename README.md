@@ -22,7 +22,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 4. Treatise: developing in OIC
 5. Other resources
 6. Youtube sources
-7. Additional Workshops
+7. **Additional Workshops**
 8. Advanced use cases
 9. Error Handling
 10. Administering OIC
