@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources.
+This guide acts as a repository for getting started with Oracle Integration and where to find relevant resources for using it completely with a wide variety of use cases.
 
 Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events, and it can eliminate the pain points caused by [point-to-point integrations](https://www.christiernan.com/why-point-to-point-integrations-are-evil/). We have [many successful customers](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories) that have digitally transformed their businesses. 
 
