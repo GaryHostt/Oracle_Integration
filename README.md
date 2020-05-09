@@ -18,7 +18,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 1. General Resources
 2. Components of OIC
-3. Basic types of integrations - with workshop examples
+3. **Basic types of integrations - with workshop examples**
 4. Treatise: developing in OIC
 5. Other resources
 6. Youtube sources
@@ -72,7 +72,7 @@ SaaS trigger integrations typically rely upon these factors:
 
 Using Eloqua as a trigger first requires [installing this agent and linking it to your OIC environment](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm). After installing the agent, you then need to create the rule in Eloqua that triggers the outbound call to OIC by [adding a task to a campaign canvas](https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/IntegrationCloudService/Tasks/AddingICSToCanvas.htm).
 
-[This workshop](https://github.com/GaryHostt/OIC_SaaS_integration) shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
+[**This workshop**](https://github.com/GaryHostt/OIC_SaaS_integration)shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
 
 This video shows you how to start [configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share) as integration triggers. This article explains [configuring Service Cloud outbound communication](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/) to Eloqua.
 
@@ -80,7 +80,7 @@ This video shows you how to start [configuring salesforce for business events](h
 
 Schedule integrations are good for sending data from applications to data warehouses, reading information from csv files, or pulling information from applications and writing that data to a csv file. 
 
-[This workshop](https://github.com/GaryHostt/BigQueryIntegration) is an example of pulling info from an FTP server and writing them to Google's data warehouse, BigQuery, via its REST API. However, for files larger than that and less than 1 GB - you will need the 'stage file' operation in order to read the file - as shown in [this YouTube video](https://www.youtube.com/watch?v=hE5nF-henFw&feature=share). Besides reading files, you can [write them to an FTP after invoking data (seen in this video)](https://www.youtube.com/watch?v=7wx-gAT4IdU), and [list files - even from multiple directories](https://www.techsupper.com/2019/05/how-to-list-files-from-ftp-resides-in-multiple-directories-oracle-integration-cloud.html). 
+[**This workshop**](https://github.com/GaryHostt/BigQueryIntegration) is an example of pulling info from an FTP server and writing them to Google's data warehouse, BigQuery, via its REST API. However, for files larger than that and less than 1 GB - you will need the 'stage file' operation in order to read the file - as shown in [this YouTube video](https://www.youtube.com/watch?v=hE5nF-henFw&feature=share). Besides reading files, you can [write them to an FTP after invoking data (seen in this video)](https://www.youtube.com/watch?v=7wx-gAT4IdU), and [list files - even from multiple directories](https://www.techsupper.com/2019/05/how-to-list-files-from-ftp-resides-in-multiple-directories-oracle-integration-cloud.html). 
 
 OIC can process flat files up to 1 GB in size. For larger files than that - [check out my data integration repo](https://github.com/GaryHostt/Oracle_Data_Integrator). [What if errors occur in my scheduled integration?](https://github.com/GaryHostt/Oracle_Integration/blob/master/Errors.md)
 
@@ -88,7 +88,7 @@ OIC can process flat files up to 1 GB in size. For larger files than that - [che
 
 The next use case pattern is basically using OIC as a 'drag & drop API builder'. You can use a blank REST adapter at the beginning of your integrations. This can also be used to abstract away SOAP endpoints. These endpoints can also invoked from Postman, SOAP UI, VBCS, your given front end framework of choice, coding language API call, etc. 
 
-[In this workshop](https://github.com/GaryHostt/ATPworkshop), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
+[**In this workshop**](https://github.com/GaryHostt/ATPworkshop), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
 
 The generic REST trigger can also be used to create SaaS trigger integrations with [webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8). Applications need to be configurable to send payloads to a generic REST endpoint. For example, Agile PLM, an Oracle application lacking its own adapter, can be configured to make an outbound call to a generic API as a result of event updates. To create asynchronous communication, you can choose not to configure the REST adapter to receive a response from your other systems.
 
@@ -143,23 +143,37 @@ This channel can get your started with VBCS, Process Automation, RPA, and more!
 
 ## Additional Workshops
 
+The 4 workshops below are excellent for getting started with various components of OIC, they seek to minimize reliance on having pre-existing external systems with which to integrate. 
+
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
 The above workshop, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its features. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems. These three workshops are good starters to learn about the components of OIC and how to leverage them with more advanced use cases.
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
+This workshop builds upon the previous, adding VBCS & APIPCS to the previous work.
+
 [Basics, database, REST, Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+
+The above workshop is excellent at continuing the previous use cases you've learned in process, but with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Process database.
+
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
+
+The above is the best workshop for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
 
 .......
 
 [HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
 
+This lab captures new employees from HCM and creates them in EBS.
+
 [OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
+
+This shows how to use HCM ATOM feeds.
 
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
 
-This workshop contains the common ERP Cloud integration patterns.
+This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: BIP, FBDI, extracts, and events. 
 
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
@@ -168,8 +182,6 @@ The above workshop shows you the various ways to use the Cloud ERP adapter, how 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
 The agent enables communication with systems not visible through the internet, via port 22. 
-
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
 
 [Workshop on BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
 
