@@ -180,7 +180,7 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
 
   - [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
   
-[OraTrainings]
+[OraTrainings](https://www.youtube.com/channel/UCNmHtU1rBaIPH81a1E5aioA/playlists)
 
   - [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
