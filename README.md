@@ -156,15 +156,21 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
   
   - [Best video for installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
 
-  -- The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
+      ---> The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
+      
+[Oracle Learning - Integration videos](https://www.youtube.com/user/OracleLearning/search?query=integration)
 
 [Oracle Cloud TechSupper Ankur](https://www.youtube.com/channel/UCo3xxBD5yqhofSyA_M6C10Q)
+
+  - [OIC playlist](https://www.youtube.com/watch?v=gvWoBNsmSPc&list=PLlzOCTRJKR1Ljh5cg_NJoFYVrdD0OsL2Y)
 
   - [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
 
   - [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
+  
+[OraTrainings]
 
-[Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
+  - [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
 ## Additional Workshops
 
