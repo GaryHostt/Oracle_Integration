@@ -21,13 +21,25 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 1. General Resources
 2. Components of OIC
 3. **Basic types of integrations - with workshop examples**
+  - SaaS triggers
+  - Scheduled
+  - Generic REST trigger
 4. Treatise: [my own](https://www.linkedin.com/in/robertamacdonald94/) views on developing in OIC
+  - Mapping
+  - SaaS troubleshooting
+  - Learning OIC has a business user
 5. Other resources
-6. Youtube sources
+  - Certifications & training
+6. Youtube resources
 7. **Additional Workshops**
+  - Beginner
+  - Advanced
 8. Advanced use cases
 9. Error Handling
-10. **Walk-throughs**
+10. **Integration Walk-throughs**
+  - Oracle apps & SaaS
+  - Non-Oracle apps
+  - other Oracle Cloud
 11. **Administering OIC**
 12. Beyond Application Integration
 
@@ -254,9 +266,9 @@ Being able to embed VBCS & Process forms is a powerful feature - imagine a compa
 
 Oracle Integration comes with a built in messaging system to enable publisher, topic, subscriber deployment patterns.
 
-[Part1](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part1)
+[Part 1](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part1)
 
-[Part2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
+[Part 2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
 
 ### More ways to use OIC
 
