@@ -138,19 +138,21 @@ This is where I go to examine if a given SaaS version is compatible with the ada
 
 [Santa Monica Hub Youtube channel](https://www.youtube.com/channel/UCW04sPyVsthkrjPs_Gx-dFA/featured?disable_polymer=1)
 
-This channel can get your started with VBCS, Process Automation, RPA, and more! 
+This channel will show you VBCS, Process Automation, RPA, and other demos in action! 
+
+  [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
+
+  [Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok)
+  
+  [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
 
 [Oracle Cloud TechSupper Ankur](https://www.youtube.com/channel/UCo3xxBD5yqhofSyA_M6C10Q)
 
+  [Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
+
+  [Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
+
 [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
-
-[Using the REST adapter](https://www.youtube.com/watch?v=NDwTCKDC8LM)
-
-[Navigating OIC](https://www.youtube.com/watch?v=U51IZ7og1Zw)
-
-[Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
-
-[Calling the Oracle Blockchain platform's API from OIC](https://www.youtube.com/watch?v=StxK60ZtBok) 
 
 ## Additional Workshops
 
