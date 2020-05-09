@@ -298,7 +298,7 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 ## Integration Walk-throughs
 
-These are less detailed than the previous workshops, but are very useful for starting use cases with the systems below.
+These articles are very useful for starting use cases with the systems below.
 
 ### Oracle Apps with OIC
 
@@ -311,8 +311,6 @@ These are less detailed than the previous workshops, but are very useful for sta
 [Service Cloud to Eloqua, contacts](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/)
 
 [Netsuite real time integration](https://www.ateam-oracle.com/netsuite-integration-series-part-1)
-
-[Using FBDI with ERP in OIC](https://blog.rubiconred.com/oic-erp-integration-using-file-based-data-import-fbdi/)
 
 [Extracting bulk data from Fusion HCM](https://docs.oracle.com/en/cloud/paas/integration-cloud/hcm-adapter/sample-integration-flow-demonstrate-extract-bulk-data-option.html)
 
