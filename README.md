@@ -85,9 +85,9 @@ There are more than these, but these have been the typical use case patterns I h
 ### SaaS triggers
 
 SaaS trigger integrations typically rely upon these factors:
-1. Use of one of the SaaS adapters in trigger or trigger & invoke mode
-2. Configuration on the SaaS to fire off an outbound message or a webhook to OIC
-3. An event then occuring in the SaaS application that will trigger communication with OIC
+  - Use of one of the SaaS adapters in trigger or trigger & invoke mode
+  - Configuration on the SaaS to fire off an outbound message or a webhook to OIC
+  - An event then occuring in the SaaS application that will trigger communication with OIC
 
 Using Eloqua as a trigger first requires [installing this agent and linking it to your OIC environment](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm). After installing the agent, you then need to create the rule in Eloqua that triggers the outbound call to OIC by [adding a task to a campaign canvas](https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/IntegrationCloudService/Tasks/AddingICSToCanvas.htm).
 
