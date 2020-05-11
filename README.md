@@ -357,7 +357,7 @@ Those using previous SOA licences are eligible for [BYOL metering, do you qualif
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
 
-To control and monitor costs, you can [create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/IntegrationInstance/StartIntegrationInstance).
+To control and monitor costs, you can [create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API, which I demonstrate in this repo](https://garyhostt.github.io/OIC_start-stop/).
 
 CI/CD for OIC is an improvement to just using the import/export feature, shown in this [video](https://www.youtube.com/watch?v=FiC7PfN7wZ0) and this [article](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/).
 
