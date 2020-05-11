@@ -142,6 +142,8 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
 [RedThunder blog](https://redthunder.blog/)
 
+[PaaS Community blog](https://paascommunity.com/category/oracle/)
+
 ### Certification & training
     
 [Oracle Integration Certification resources](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
@@ -278,7 +280,7 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 [Invoking OIC endpoints with Oauth & IDCS](https://www.ateam-oracle.com/trigger-oic-integration-using-oauth)
 
-- This is an alternative to the basic auth policy that is normally used by a non-federated IDCS user that calls your integration endpoints. 
+- This is an alternative to the basic auth policy that is normally used by a non-federated IDCS user that calls your integration endpoints, this [blog post](https://paascommunity.com/2020/04/27/simplified-oauth-config-for-oracle-integration-cloud-rest-api-using-postman-by-manish-kumar-gupta/) provides further details. 
 
 [Integrating chatbots with VBCS applications](https://blogs.oracle.com/vbcs/integrating-chatbots-into-vbcs-applications)
 
