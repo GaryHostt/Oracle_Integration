@@ -14,8 +14,6 @@ OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle
 
 - For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. 
 
-- SaaS customers may be interested in the [Oracle Integration for Oracle SaaS edition](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/differences-oracle-integration-and-oracle-integration-oracle-saas.html), depending on their requirements.
-
 If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/). OIC can also complement [cloud native applications deployed on OCI](https://garyhostt.github.io/OCI_DevOps/).
 
 If you do not have an OIC environment, you can start with this [tutorial](https://www.oracle.com/webfolder/s/assets/demo/integration-simulator/index.html#step1) that simulates an environment for you. You can follow [these instructions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/create-oracle-integration-instance.html#GUID-EC63C933-34BF-4B13-94F7-E2979A1668DB) so spin up an instance. Once you have OIC spun up, start with these [beginner tutorials](https://docs.oracle.com/en/cloud/paas/integration-cloud/tutorials.html) or the 'Beginner Workshops' later in this repository.
@@ -52,12 +50,14 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 [The main OIC documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html) is your friend.
 
 Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html), it's based on how many 'messages' you consume. But what is a message and how do you count them? Check out this [explanation](https://blog.rubiconred.com/understanding-oracle-integration-cloud-licensing/).
+
+- SaaS customers may be interested in the [Oracle Integration for Oracle SaaS edition](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/differences-oracle-integration-and-oracle-integration-oracle-saas.html), depending on their requirements.
   
-Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the OIC REST API documentation [here](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html) or [here](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html). What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
+Perhaps you want to programatically schedule OIC, or even have OIC integrate with itself? Then check out the OIC REST API documentation [here](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html) or [here](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), depending on the task. What credentials do I need to connect, how do I configure SaaS outbound messaging, what can an adapter do? If these questions sound familiar, start with [the adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html).
 
 The [Integration blog](https://blogs.oracle.com/integration/) is where new features for OIC are announced and very helpful articles. If you see a new feature you want to try - here's how you can [request a feature flag](https://blogs.oracle.com/integration/enabling-the-future-today-feature-flags-in-oracle-integration-cloud).
 
-From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/48917996) you can download pre-made integration recipes from here and customize them to your use case. Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html).
+From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/homeLinkPage) you can download pre-made integration recipes from here and customize them to your use case, such as [Netsuite to Jira case syncronization](https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=48917996&adf.tfId=adhtf) or this [salesforce & eloqua contact sync](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/38627693). Need to start/stop your instance, scale for more message packs, or export your integrations? Check out how to [manage Oracle Integration](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/manage-oracle-integration.html).
 
 ## Components of OIC
 
