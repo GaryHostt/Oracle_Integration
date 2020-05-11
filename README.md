@@ -148,6 +148,10 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
 [PaaS Community blog](https://paascommunity.com/category/oracle/)
 
+[File based integration best practices](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices)
+
+  - Should I use the file or FTP adapter? How big can my flat file be? How should I interact with FBDI/UCM, and other questions can be answered here. 
+
 ### Certification & training
     
 [Oracle Integration Certification resources](https://learn.oracle.com/ords/training/dl4_pages.getpage?page=dl4learningpath&get_params=offering:37194,id:57591)
@@ -212,11 +216,21 @@ The workshops below are excellent for getting started with the various component
 
 - This workshop is for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
 
+#### More Beginner workshops
+
+[Application Integration & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Subscription-Management/html/index.html)
+
+[Visual Builder & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Visual-Builder/html/index.html)
+
 ### Advanced workshops
 
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
 
 - This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: BIP, FBDI, extracts, and events. 
+
+[HCM integration patters](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/index.html)
+
+- You will learn the common HCM Cloud integration patterns by importing new works & syncing a directory.
 
 [The varieties of Fusion ERP integrations + Apiary + salesforce](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
