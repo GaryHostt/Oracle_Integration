@@ -353,6 +353,8 @@ Click [here to learn about managing OIC from the OCI console](https://docs.cloud
 
 [Administration documentation homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
 
+[Enable SSO for OIC using IDCS and Federate with Third party IDP for Authentication](https://www.infosysblogs.com/oracle/2019/08/Enable%20SSO%20for%20OIC%20using%20IDCS%20and%20Federate%20with%20Third%20party%20IDP%20for%20Authentication.html)
+
 Those using previous SOA licences are eligible for [BYOL metering, do you qualify? How to turn it on/off](https://blogs.oracle.com/integration/turn-byol-metering-on-or-off-in-oracle-integration-cloud)
 
 [Sending notifications with a custom email](https://blogs.oracle.com/integration/sending-oic-notifications-from-an-email-address-of-your-choice)
