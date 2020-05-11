@@ -12,7 +12,9 @@ Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as
 
 OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle_Data_Integrator/), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/zzhangjii/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. 
 
-- For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. For Fusion customers, you may also be interested in the [Oracle Integration for Oracle SaaS edition](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/differences-oracle-integration-and-oracle-integration-oracle-saas.html).
+- For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. 
+
+- SaaS customers, may be interested in the [Oracle Integration for Oracle SaaS edition](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/differences-oracle-integration-and-oracle-integration-oracle-saas.html) depending on their requirements.
 
 If this is your first time hearing about OIC, check out the [OIC Product homepage](https://www.oracle.com/middleware/application-integration/). OIC can also complement [cloud native applications deployed on OCI](https://garyhostt.github.io/OCI_DevOps/).
 
