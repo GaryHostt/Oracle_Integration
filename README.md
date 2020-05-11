@@ -210,14 +210,6 @@ The workshops below are excellent for getting started with the various component
 
 ### Advanced workshops
 
-[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
-
-- This lab shows how to use OIC to capture new employees created in HCM and then create them in EBS.
-
-[OIC Fusion & HCM Integration](https://github.com/OracleCPS/oicsaasintegration)
-
-- This shows how to use HCM ATOM feeds and make connections with other SaaS adapters.
-
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
 
 - This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: BIP, FBDI, extracts, and events. 
@@ -226,10 +218,6 @@ The workshops below are excellent for getting started with the various component
 
 - The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows invoke Fusion's REST API, how to use the ERP adapter for querying data and using FBDI, how a business event could fire to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
 
-[Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
-
-- The agent enables communication with systems not visible through the internet, via port 22. This lab shows how to use the Oracle Database adapter, and should done only after watching this short [video](https://www.youtube.com/watch?v=nYmOgX95wd4). Note: the UI in this workshop is dated.  
-
 [Scheduled FTP Integration to BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
 
 - This workshop shows how to use the Oauth2 policy with the OIC REST adapter, the basics of scheduled integrations with the FTP adapter, and how to integrate with GCP's BigQuery.
@@ -237,6 +225,18 @@ The workshops below are excellent for getting started with the various component
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
 - In this followup, my python script only needs to worry about the basic auth to the OIC API. OIC is taking care of Oauth2 with BigQuery.
+
+[HCM to EBS](https://github.com/KseniiaRyuma/HCM_to_EBS_integration/blob/master/oic100.md), with [video](https://www.youtube.com/watch?v=8YuxMwG8qKE&fbclid=IwAR0vTgkqxEJQyEGbw9S5ErjNWJSoH1UphbdLgR2-pT3N_NU2WgusA7gFzQo)
+
+- This lab shows how to use OIC to capture new employees created in HCM and then create them in EBS.
+
+[HCM and other Oracle SaaS Integrations](https://github.com/OracleCPS/oicsaasintegration)
+
+- This shows how to use HCM ATOM feeds and make connections with other SaaS adapters.
+
+[Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
+
+- The agent enables communication with systems not visible through the internet, via port 22. This lab shows how to use the Oracle Database adapter, and should done only after watching this short [video](https://www.youtube.com/watch?v=nYmOgX95wd4). Note: the UI in this workshop is dated.  
 
 ## Advanced use cases
 
