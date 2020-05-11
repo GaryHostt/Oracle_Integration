@@ -228,7 +228,7 @@ The workshops below are excellent for getting started with the various component
 
 - This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: BIP, FBDI, extracts, and events. 
 
-[HCM integration patters](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/index.html)
+[HCM integration patterns](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/index.html)
 
 - You will learn the common HCM Cloud integration patterns by importing new works & syncing a directory.
 
