@@ -61,18 +61,18 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
 
 ## Components of OIC
 
-1. Application integration
-2. VBCS, Visual Builder Cloud Service
-3. [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/user-int-insight/introduction-integration-insight.html)
-4. The agent
+  - Application integration
+  - VBCS, Visual Builder Cloud Service
+  - [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/user-int-insight/introduction-integration-insight.html)
+  - The agent
 
 ....................
 note: Enterprise edition only below
 ....................
 
-5. Process Automation
-6. On-premises Entrise Application adapters 
-7. [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
+- Process Automation
+- On-premises Entrise Application adapters 
+- [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
 ## Basic types of integrations - with workshop examples
 
