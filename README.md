@@ -248,9 +248,13 @@ The workshops below are excellent for getting started with the various component
 
 - This lab shows how to use OIC to capture new employees created in HCM and then create them in EBS.
 
+[ERP events, Process Automation, CPQ, & ATP](https://garyhostt.github.io/OIC_SaaS_integration/)
+
+- This workshop will get you started with ERP events, and building a Process Automation application. 
+
 [HCM and other Oracle SaaS Integrations](https://github.com/OracleCPS/oicsaasintegration)
 
-- This shows how to use HCM ATOM feeds and make connections with other SaaS adapters.
+- Here, you will use HCM ATOM feeds and make connections with other SaaS adapters.
 
 [Hybrid integration with the agent](https://github.com/OracleCPS/oichybridintegration)
 
