@@ -49,7 +49,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 [The main OIC documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html) is your friend.
 
-Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing & editions](https://www.oracle.com/cloud/integration/pricing.html), it's based on how many 'messages' you consume. But what is a message and how do you count them? Check out this [explanation](https://blog.rubiconred.com/understanding-oracle-integration-cloud-licensing/).
+Do I need the on-premises adapters, what is process automation, how much does it cost? Check out [OIC Pricing](https://www.oracle.com/cloud/integration/pricing.html) & [editions](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/oracle-integration-editions.html), it's based on how many 'messages' you consume. But what is a message and how do you count them? Check out this [explanation](https://blog.rubiconred.com/understanding-oracle-integration-cloud-licensing/).
 
 - SaaS customers may be interested in the [Oracle Integration for Oracle SaaS edition](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/differences-oracle-integration-and-oracle-integration-oracle-saas.html), depending on their requirements.
   
