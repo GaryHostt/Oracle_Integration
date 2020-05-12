@@ -236,7 +236,7 @@ The workshops below are excellent for getting started with the various component
 
 - The above workshop shows you the various ways to use the Cloud ERP adapter, how Apiary can substitute for a 3rd party API, and my write up "Background on the Fusion REST API" - useful for understanding how to start creating Fusion Integrations. It shows invoke Fusion's REST API, how to use the ERP adapter for querying data and using FBDI, how a business event could fire to an Apiary endpoint. The salesforce adapter's querying capabilities are also exhibited.  
 
-[Scheduled FTP Integration to BigQuery + Oauth2 authentication](https://github.com/GaryHostt/BigQueryIntegration)
+[Scheduled FTP Integration to BigQuery + Oauth2 authentication](https://garyhostt.github.io/BigQueryIntegration/)
 
 - This workshop shows how to use the Oauth2 policy with the OIC REST adapter, the basics of scheduled integrations with the FTP adapter, and how to integrate with GCP's BigQuery.
 
