@@ -63,7 +63,6 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
 
   - Application integration
   - VBCS, Visual Builder Cloud Service
-  - [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
   - The agent
 
 ....................
@@ -72,6 +71,7 @@ note: Enterprise edition only below
 
 - Process Automation
 - On-premises Entrise Application adapters 
+- [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
 ## Basic types of integrations - with workshop examples
