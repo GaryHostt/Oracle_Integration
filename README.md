@@ -63,7 +63,7 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
 
   - Application integration
   - VBCS, Visual Builder Cloud Service
-  - [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/user-int-insight/introduction-integration-insight.html)
+  - [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
   - The agent
 
 ....................
