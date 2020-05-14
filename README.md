@@ -112,7 +112,7 @@ The next use case pattern is basically using OIC as a 'drag & drop API builder'.
 
 The generic REST trigger can also be used to create SaaS trigger integrations with [webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8). Applications need to be configurable to send payloads to a generic REST endpoint. For example, Agile PLM, an Oracle application lacking its own adapter, can be configured to make an outbound call to a generic API as a result of event updates. To create asynchronous communication, you can choose not to configure the REST adapter to receive a response from your other systems.
 
-The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)!
+The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)! It can also be used to [receive information from an OCI event](https://redthunder.blog/2020/05/14/triggering-an-oic-integration-via-oci-events-the-oracle-functions-approach/).
 
 ## Treatise: developing in OIC, [my own](https://www.linkedin.com/in/robertamacdonald94/) views
 
@@ -302,6 +302,10 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 [Part 2](https://blogs.oracle.com/integration/integration-patterns-publishsubscribe-part2)
 
 ### More ways to use OIC
+
+[Triggering an OIC integration via OCI Events](https://redthunder.blog/2020/05/14/triggering-an-oic-integration-via-oci-events-the-oracle-functions-approach/)
+
+  - Visit [this repo](https://garyhostt.github.io/OCI_DevOps/) to get started with events
 
 [Sending attachments with notification emails](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
