@@ -348,6 +348,8 @@ These articles are very useful for starting use cases with the systems below.
 
 [Making a connection with the Workday adapter](https://shalindrasingh.wordpress.com/2017/11/21/oracle-cloud-adapter-for-workday-important-things-to-not/)
 
+[The DocuSign Adapter](http://niallcblogs.blogspot.com/2020/02/751-oic-docusign-adapter.html)
+
 ### More Oracle with OIC
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
