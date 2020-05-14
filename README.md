@@ -140,19 +140,23 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
   - This is where I go to examine if a given SaaS/application version is compatible with the given adapter.
 
-[Ankur Jain's blog](https://blogs.oracle.com/author/ankur-jain)
-
-[Shalindra's blog](https://shalindrasingh.wordpress.com/)
-
-[RedThunder blog](https://redthunder.blog/)
-
-[Niallc's blog](http://niallcblogs.blogspot.com/)
-
-[PaaS Community blog](https://paascommunity.com/category/oracle/)
-
 [File based integration best practices](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices)
 
   - Should I use the file or FTP adapter? How big can my flat file be? How should I interact with FBDI/UCM, and other questions can be answered here. 
+  
+### Blogs
+
+[Official Oracle Integration](https://blogs.oracle.com/integration/)
+
+[Ankur Jain's](https://blogs.oracle.com/author/ankur-jain)
+
+[Shalindra's](https://shalindrasingh.wordpress.com/)
+
+[RedThunder](https://redthunder.blog/)
+
+[Niallc's](http://niallcblogs.blogspot.com/)
+
+[PaaS Community](https://paascommunity.com/category/oracle/)
 
 ### Certification & training
     
