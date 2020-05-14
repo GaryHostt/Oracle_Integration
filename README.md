@@ -71,7 +71,7 @@ note: Enterprise edition only below
 
 - Process Automation
 - On-premises Entrise Application adapters 
-- [Insight - coming soon!](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
+- [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
 ## Basic types of integrations - with workshop examples
@@ -301,6 +301,8 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 [Sending attachments with notification emails](https://www.techsupper.com/2019/12/send-notification-with-attachment-in-oracle-integration-cloud.html)
 
 [Using lookup tables](https://www.techsupper.com/2019/12/oracle-integration-cloud-service-lookups-2.html)
+
+[Getting started with Insight](http://niallcblogs.blogspot.com/2020/05/767-oic-integration-process-insight.html)
 
 [Invoking OIC endpoints with Oauth & IDCS](https://www.ateam-oracle.com/trigger-oic-integration-using-oauth)
 
