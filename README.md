@@ -146,6 +146,8 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
 [RedThunder blog](https://redthunder.blog/)
 
+[Niallc's blog](http://niallcblogs.blogspot.com/)
+
 [PaaS Community blog](https://paascommunity.com/category/oracle/)
 
 [File based integration best practices](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices)
