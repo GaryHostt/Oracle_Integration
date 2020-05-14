@@ -31,6 +31,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
   - SaaS troubleshooting
   - Learning OIC has a business user
 5. Other resources
+  - Blogs
   - Certifications & training
 6. Youtube resources
 7. **Additional Workshops**
