@@ -145,6 +145,8 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
   - Should I use the file or FTP adapter? How big can my flat file be? How should I interact with FBDI/UCM, and other questions can be answered here. 
   
+ [File practices, part 2](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
+  
 ### Blogs
 
 [Official Oracle Integration](https://blogs.oracle.com/integration/)
