@@ -177,6 +177,8 @@ Before working with Oracle Integration, my previous technical experience mainly 
 
 [Santa Monica Hub - Application Integration - Youtube channel](https://www.youtube.com/channel/UCW04sPyVsthkrjPs_Gx-dFA/featured?disable_polymer=1)
 
+[PaaS for SaaS - Cloud ERP - Connect deep dive](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.be)
+
 This channel will show you VBCS, Process Automation, RPA, and other demos in action! See some videos below
 
   - [Process Automation Introduction](https://www.youtube.com/watch?v=hVIi06pNJ20)
