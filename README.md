@@ -406,7 +406,7 @@ CI/CD for OIC is an improvement to just using the import/export feature, shown i
 
 [IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
 
-[IAM roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/setting-users-and-groups.html)
+[IAM roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
 
 ## Error Handling in OIC
 
