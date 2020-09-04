@@ -47,12 +47,12 @@
 [Scheduling scheduled integrations](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/creating-scheduled-integrations.html#GUID-9632A5C8-98A7-4371-B542-6A8583427C8D)
 * This shows how to use iCal expressions to set up more complex schedules with OIC.
 
-Videos
+### Videos
 We continue to add new videos to our fundamental integration vocabulary and concepts series. The latest videos describe some key components used in the Create an Integration to Import and Process Bulk Files sample in Using the FTP Adapter with Oracle Integration:
 * [Bulk File Transfer with the FTP Adapter](https://www.youtube.com/watch?v=fWvbnIh6WvQ&t=9s)
 * [Use the Stage File Action in Oracle Integrations](https://www.youtube.com/watch?v=LLEHt4kno9M&t=158s)
 * [Use the For-Each Action in Oracle Integrations](https://www.youtube.com/watch?v=-Cfq2fYwCTk)
 
-FTP tools
+### FTP tools
 [cyberduck](https://cyberduck.io/download/)
 [filezilla](https://filezilla-project.org/download.php)
