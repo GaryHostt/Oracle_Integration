@@ -118,7 +118,7 @@ The latest videos describe some key components used creating an integration to i
 
 - the OIC file server uses sFTP protocol
 
-### Closing comic
+## Closing comic
 
 Thanks for reading, hope it was helpful. Find [me on LinkedIn](bit.ly/3lRd5e0).
 
