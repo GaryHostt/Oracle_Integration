@@ -1,7 +1,16 @@
 
 # OIC Generation 2 + File Server information
 
-..this page is a continuation of my [overarching OIC knowledge repo here](https://garyhostt.github.io/Oracle_Integration/). This page details how and why you should upgrade to OIC generation 2 and then specific information on using the new File Server with OIC generation 2.
+..this page is a continuation of my [overarching OIC knowledge repo here](https://garyhostt.github.io/Oracle_Integration/). 
+
+This page details:
+- how and why you should upgrade to OIC generation 2
+- using the OIC File Server (generation 2 only)
+   - configuration
+   - use cases
+   - best practices
+   - videos
+   - FTP tools
 
 ## Oracle Integration, Generation 2
 
