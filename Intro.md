@@ -30,9 +30,7 @@ This page details:
 - With generation 2, you still use IDCS to manage permissions of what users can on the OIC Service Console, but for managing OIC on the OCI console, that is managed by IAM. Click here to learn more about [identity federation](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/federatingIDCS.htm) on OCI. This and other tasks are explained on the 
 [main documentation for gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html).
 
-**How do I know if I have gen 2 or gen 1?**
-
-How to access each in the [OCI console](https://console.us-ashburn-1.oraclecloud.com/):
+**"How do I know if I have gen 2 or gen 1?"** - Here's how to access each in the [OCI console](https://console.us-ashburn-1.oraclecloud.com/):
 
 - Oracle Integration Generation 2: Application Integration -> Integration
 - Oracle Integration Generation 1: Platform Services -> Integration
