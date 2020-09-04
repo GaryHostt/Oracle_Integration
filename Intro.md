@@ -105,3 +105,11 @@ The latest videos describe some key components used creating an integration to i
 [Python with sFTP](https://pysftp.readthedocs.io/en/release_0.2.9/)
 
 - the OIC file server uses sFTP protocol
+
+### Closing comic
+
+<p align="center">
+  <img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/11/363-system-32-comics-22-5bfc736f87910-png__880.jpg?raw=true" alt="comic"/>
+</p>
+
+Thanks for reading, hope it was helpful.
