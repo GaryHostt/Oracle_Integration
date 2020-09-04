@@ -111,6 +111,6 @@ The latest videos describe some key components used creating an integration to i
 Thanks for reading, hope it was helpful. Find [me on LinkedIn](bit.ly/3lRd5e0).
 
 <p align="center">
-  <img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/11/363-system-32-comics-22-5bfc736f87910-png__880.jpg?raw=true" width="600" height="800" alt="comic"/>
+  <img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/11/363-system-32-comics-22-5bfc736f87910-png__880.jpg?raw=true" width="600" height="760" alt="comic"/>
 </p>
 
