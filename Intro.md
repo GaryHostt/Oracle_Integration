@@ -51,6 +51,9 @@
 3. Pulling to/from external system
 
     * [This previous lab shows how OIC can read data in a csv and pass it elsewhere](https://garyhostt.github.io/BigQueryIntegration/)
+    * [You can use your file server for FBDI import files](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
+      - [alternative FBDI lab](https://github.com/maldu23/Fusion-FBDI-Integration/blob/master/FBDI_Wkshp.md)
+    * [Or HDL imports in HCM](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/hcm-cloud-pending-worker-import-simple.html)
 
 ### Best practices for handling files in OIC
 [File Handling Primer](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
