@@ -8,6 +8,7 @@ This page details:
 - Using the OIC File Server  (gen2 only)
    - Configuration
    - Use cases
+      - OIC log collection, BICC, Oracle SaaS import/export, other APIs
    - Best practices
    - Videos
    - FTP tools
