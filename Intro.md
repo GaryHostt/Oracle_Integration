@@ -13,6 +13,8 @@
 
 [How to upgrade from Gen1 to Gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6) - it's easy as 1, 2, 3 **and doesn't cost extra $**
 
+- You can also manually export your integrations, processes, and VBCS apps. Spin up a gen 2 instance, and then import those to your new environment. However, your instance URL will change and you will need to reconfigure your connections & users. IF this manually process is verified 100% to work for you - then you can delete your gen 1 instance. **For obvious reasons this is not the recommended approach**, but it may be satisfactory work for some.
+
 [IAM roles for OIC Gen2](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
 - With generation 2, you still use IDCS to manage permissions of what users can on the OIC Service Console, but for managing OIC on the OCI console, that is managed by IAM. Click here to learn more about [identity federation](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/federatingIDCS.htm) on OCI. This and other tasks are explained on the 
 [main documentation for gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html).
