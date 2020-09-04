@@ -1,6 +1,8 @@
 
 # OIC Generation 2 + File Server information
 
+..continued from [here](https://garyhostt.github.io/Oracle_Integration/)
+
 ## Oracle Integration, Generation 2
 
 [Main Documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html)
