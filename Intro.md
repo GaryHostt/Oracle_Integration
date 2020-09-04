@@ -76,7 +76,7 @@ The file server does not cost any extra money. If you use it in integrations, it
 * This shows how to use iCal expressions to set up more complex schedules with OIC.
 
 ### Videos
-We continue to add new videos to our fundamental integration vocabulary and concepts series. The latest videos describe some key components used in the Create an Integration to Import and Process Bulk Files sample in Using the FTP Adapter with Oracle Integration:
+The latest videos describe some key components used creating an integration to import and process bulk files using the FTP Adapter with Oracle Integration:
 * [Bulk File Transfer with the FTP Adapter](https://www.youtube.com/watch?v=fWvbnIh6WvQ&t=9s)
 * [Use the Stage File Action in Oracle Integrations](https://www.youtube.com/watch?v=LLEHt4kno9M&t=158s)
 * [Use the For-Each Action in Oracle Integrations](https://www.youtube.com/watch?v=-Cfq2fYwCTk)
