@@ -65,7 +65,7 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
   - Application integration
   - VBCS, Visual Builder Cloud Service
   - The agent
-  - [File Server]()
+  - [File Server](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md)
 
 ....................
 note: Enterprise edition only below
@@ -75,6 +75,8 @@ note: Enterprise edition only below
 - On-premises Entrise Application adapters 
 - [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
+
+**Not all features are available in generation 1 instances, visit [here](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md) to learn which generation you are on and how to upgrade (hint: it's easy & worth your time**
 
 ## Basic types of integrations - with workshop examples
 
