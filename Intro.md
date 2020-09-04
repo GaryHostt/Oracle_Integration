@@ -58,14 +58,16 @@ The file server **does not cost any extra money**. If you use it in integrations
 1. OIC log collection & analysis
 
 * [Download OIC logs from the API](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html)
->id: string
->Log file identifier. Specify which file to download. 
->
->Valid values:
->icsflowlog: Contains information about what is happening during runtime, for active integrations that have tracing enabled.
->icsdiagnosticlog: Contains information for all integrations about how the system is working. This log can be useful when you are analyzing an issue.
->icsauditlog: Contains all the changes users have made on design-time artifacts such as integrations, connections, adapters, and so on. Contains information for >all integrations.
->
+
+```
+id: string
+Log file identifier. Specify which file to download. 
+
+Valid values:
+icsflowlog: Contains information about what is happening during runtime, for active integrations that have tracing enabled.
+icsdiagnosticlog: Contains information for all integrations about how the system is working. This log can be useful when you are analyzing an issue.
+icsauditlog: Contains all the changes users have made on design-time artifacts such as integrations, connections, adapters, and so on. Contains information for all integrations.
+```
 
     - You can call this OIC endpoint, and have your OIC logs stored on your embedded FTP server and/or sent to object storage for analysis by your security platform of choice, such as [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/logcs/ingest-logs-oci-object-storage-buckets.html#GUID-4B2BED39-CF5F-450A-B0E5-6C36FBFB80F4).
     * To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
