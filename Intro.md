@@ -3,18 +3,6 @@
 
 ..this page is a continuation of my [overarching OIC knowledge repo here](https://garyhostt.github.io/Oracle_Integration/). 
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>The button Element</h1>
-
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
- 
-</body>
-</html>
-
-
 This page details:
 - Why you should upgrade to OIC generation 2 and how to use it
 - Using the OIC File Server  (gen2 only)
