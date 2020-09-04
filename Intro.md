@@ -1,13 +1,13 @@
 
 # OIC Generation 2 + File Server information
 
-..continued from [here](https://garyhostt.github.io/Oracle_Integration/)
+..this page is a continuation of my [overarching OIC knowledge repo here](https://garyhostt.github.io/Oracle_Integration/). This page details how and why you should upgrade to OIC generation 2 and then specific information on using the new File Server with OIC generation 2.
 
 ## Oracle Integration, Generation 2
 
 [Main Documentation for OIC Gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html)
 
-[Lists all benefits of Gen2 over Gen1](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies)
+[Lists all benefits of Gen2 over Gen1](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies) - more than just the File Server!
 
 [How to upgrade from Gen1 to Gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6) - it's easy as 1, 2, 3
 
