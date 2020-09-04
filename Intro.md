@@ -58,8 +58,9 @@ The file server **does not cost any extra money**. If you use it in integrations
 1. OIC log collection & analysis
 
 * [Download OIC logs from the API](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html)
-    * You can call this OIC endpoint, and have your OIC logs stored on your embedded FTP server and/or sent to object storage for analysis by your security platform of choice
+    * You can call this OIC endpoint, and have your OIC logs stored on your embedded FTP server and/or sent to object storage for analysis by your security platform of choice, such as [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/logcs/ingest-logs-oci-object-storage-buckets.html#GUID-4B2BED39-CF5F-450A-B0E5-6C36FBFB80F4).
     * To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
+    * OIC logs -> FTP -> Object storage or vice versa
     * Object storage with OIC:
         * [Part 1](https://redthunder.blog/2020/01/13/object-storage-with-oracle-integration-cloud-part-1/comment-page-1/)
         * [Part 2](https://redthunder.blog/2020/03/20/object-storage-with-oracle-integration-cloud-part-2/)
