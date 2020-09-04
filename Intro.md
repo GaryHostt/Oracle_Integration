@@ -15,9 +15,9 @@ This page details:
 ## Oracle Integration, Generation 2
 
 [Main Documentation for OIC Gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html)
-```
+<
 Oracle Integration Generation 2 is the next generation of our Oracle Integration platform. This upgrade delivers improved performance and reliability as well as significant improvements in provisioning and other lifecycle management activities by more deeply leveraging the power of Oracle Cloud Infrastructure.
-```
+>
 
 [Lists all benefits of Gen2 over Gen1](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies) - more than just the File Server!
 
