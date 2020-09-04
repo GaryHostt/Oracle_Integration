@@ -65,6 +65,7 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
   - Application integration
   - VBCS, Visual Builder Cloud Service
   - The agent
+  - [File Server]()
 
 ....................
 note: Enterprise edition only below
