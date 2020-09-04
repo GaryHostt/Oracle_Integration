@@ -52,6 +52,7 @@
 [File integration best practices](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices)
 
 * How to handle the file depends upon its size, where it’s from, and what you want to do with it.
+
 [Use the FTP adapter to connect to the file server, this is the FTP adapter official doc](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/understand-ftp-adapter.html)
 
 * For using the FTP adapter in integration, you will typically use scheduled integrations - maybe app-drive if you’re having an API append rows to an existing csv file. 
