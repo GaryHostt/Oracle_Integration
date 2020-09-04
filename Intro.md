@@ -86,3 +86,9 @@ The latest videos describe some key components used creating an integration to i
 [cyberduck](https://cyberduck.io/download/)
 
 [filezilla](https://filezilla-project.org/download.php)
+
+- the above are both clients you can use with your laptop to access FTP servers
+
+[Python with sFTP](https://pysftp.readthedocs.io/en/release_0.2.9/)
+
+- the OIC file server uses sFTP protocol
