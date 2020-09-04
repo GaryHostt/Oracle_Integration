@@ -40,11 +40,16 @@
 
 ### Best practices for handling files in OIC
 [File Handling Primer](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
+
 [File integration best practices](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices)
+
 * How to handle the file depends upon its size, where it’s from, and what you want to do with it.
 [Use the FTP adapter to connect to the file server, this is the FTP adapter official doc](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/understand-ftp-adapter.html)
+
 * For using the FTP adapter in integration, you will typically use scheduled integrations - maybe app-drive if you’re having an API append rows to an existing csv file. 
+
 [Scheduling scheduled integrations](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/creating-scheduled-integrations.html#GUID-9632A5C8-98A7-4371-B542-6A8583427C8D)
+
 * This shows how to use iCal expressions to set up more complex schedules with OIC.
 
 ### Videos
@@ -54,5 +59,7 @@ We continue to add new videos to our fundamental integration vocabulary and conc
 * [Use the For-Each Action in Oracle Integrations](https://www.youtube.com/watch?v=-Cfq2fYwCTk)
 
 ### FTP tools
+
 [cyberduck](https://cyberduck.io/download/)
+
 [filezilla](https://filezilla-project.org/download.php)
