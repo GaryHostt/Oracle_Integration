@@ -2,16 +2,21 @@
 # OIC Generation 2 + File Server information
 
 ## Oracle Integration, Generation 2
+
 [Main Documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/overview-oracle-integration-generation-2.html)
+
 [Lists all benefits of Gen2](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies)
+
 [How to upgrade from gen1 to gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6)
 
 ## File Server
 
 [Main documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/file-server.html)
+
 [PDF form](https://docs.oracle.com/en/cloud/paas/integration-cloud/file-server/using-file-server-oracle-integration-generation-2.pdf)
 
 ### Configuration
+
 [Follow these steps to configure your file server](https://blogs.oracle.com/integration/embedded-file-server-sftp-in-oracle-integration)
 
 [To configure the file server with the FTP adapter in OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/create-connection.html#GUID-662EF1FD-2841-4A9A-87B3-FD8B8796510D)
@@ -23,7 +28,8 @@
 ### Use Cases
 
 1. OIC log collection & analysis
-* https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html
+
+* [Download OIC logs from the API](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html)
     * You can call this OIC endpoint, and have your OIC logs stored on your embedded FTP server and/or sent to object storage for analysis by your security platform of choice
     * To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
     * Object storage with OIC:
@@ -32,10 +38,12 @@
         * [Official documentation on REST adapter & signature policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84)
 
 2. BICC Extract from object storage to File Server
+
     * [Configuring BICC with Object Storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
     * Ignore the parts about ODI and ADW, follow the steps to configure BICC And object storage
 
 3. Pulling to/from external system
+
     * [This previous lab shows how OIC can read data in a csv and pass it elsewhere](https://garyhostt.github.io/BigQueryIntegration/)
 
 ### Best practices for handling files in OIC
