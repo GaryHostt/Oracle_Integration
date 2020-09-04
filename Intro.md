@@ -16,7 +16,7 @@
 
 [To configure the file server with the FTP adapter in OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/create-connection.html#GUID-662EF1FD-2841-4A9A-87B3-FD8B8796510D)
 
-    - You can use a ssh key you upload for your user or their password. On the adapter page, you need to set the SFTP connection selectBox to yes. You can get your IP address and port from the Settings -> File Server page in your OIC instance. Make sure your user is enabled and has write access. Inside your integration, you need to use the folder for which your user has write access.
+- You can use a ssh key you upload for your user or their password. On the adapter page, you need to set the SFTP connection selectBox to yes. You can get your IP address and port from the Settings -> File Server page in your OIC instance. Make sure your user is enabled and has write access. Inside your integration, you need to use the folder for which your user has write access.
 
 [User permissions and enabling users](https://blogs.oracle.com/integration/leveraging-oracle-integration-file-server-for-file-based-integrations-v2)
 
