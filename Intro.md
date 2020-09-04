@@ -9,7 +9,7 @@
 
 [Lists all benefits of Gen2 over Gen1](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies) - more than just the File Server!
 
-[How to upgrade from Gen1 to Gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6) - it's easy as 1, 2, 3
+[How to upgrade from Gen1 to Gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6) - it's easy as 1, 2, 3 **and doesn't cost $**
 
 [IAM roles for OIC Gen2](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
 - With generation 2, you still use IDCS to manage permissions of what users can on the OIC Service Console, but for managing OIC on the OCI console, that is managed by IAM. Click here to learn more about [identity federation](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/federatingIDCS.htm) on OCI. This and other tasks are explained on the 
@@ -28,7 +28,7 @@ How to access each in the [OCI console](https://console.us-ashburn-1.oraclecloud
 
 [PDF form of documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/file-server/using-file-server-oracle-integration-generation-2.pdf)
 
-The file server does not cost any extra money. If you use it in integrations, it will count towards your billable messages.
+The file server **does not cost any extra money**. If you use it in integrations, it will count towards your billable messages.
 
 ### Configuration
 
