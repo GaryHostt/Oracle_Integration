@@ -80,7 +80,7 @@ icsauditlog: Contains all the changes users have made on design-time artifacts s
 2. BICC Extract from object storage to File Server
 
     * [Configuring BICC with Object Storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
-    * Ignore the parts about ODI and ADW, follow the steps to configure BICC And object storage
+      *Ignore the parts about ODI and ADW, just follow the steps to configure BICC and object storage*
 
 3. Pulling to/from external system
 
