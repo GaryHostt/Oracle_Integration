@@ -9,6 +9,8 @@
 
 [Lists all benefits of Gen2 over Gen1](https://blogs.oracle.com/integration/oracle-integration-oic-generation-2-is-now-available-in-all-cloud-tenancies) - more than just the File Server!
 
+- OIC generation 2 enables OIC to be managed by the OCI API, you can see an example of interacting with OIC via the OCI API [here](https://garyhostt.github.io/OIC_start-stop/)
+
 [How to upgrade from Gen1 to Gen2](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/upgrade-oracle-integration-generation-2.html#GUID-22F20017-87C7-47A5-8AEF-1CDBF564C7A6) - it's easy as 1, 2, 3 **and doesn't cost extra $**
 
 [IAM roles for OIC Gen2](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
