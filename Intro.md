@@ -55,7 +55,7 @@ The file server **does not cost any extra money**. If you use it in integrations
 
 ### Use Cases
 
-1. OIC log collection & analysis
+#### 1. OIC log collection & analysis
 
 * [Download the OIC logs from its API](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html)
 
@@ -77,7 +77,7 @@ icsauditlog: Contains all the changes users have made on design-time artifacts s
         * [Part 2](https://redthunder.blog/2020/03/20/object-storage-with-oracle-integration-cloud-part-2/)
         * [Official documentation on REST adapter & signature policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84)
 
-2. BICC Extract from object storage to File Server
+#### 2. BICC Extract from object storage to File Server
 
 You can extract information from Fusion SaaS using [BICC](https://docs.oracle.com/en/cloud/saas/applications-common/r13-update17d/biacc/toc.htm).
 
@@ -86,7 +86,7 @@ You can extract information from Fusion SaaS using [BICC](https://docs.oracle.co
 [Configuring BICC with Object Storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
    - *Ignore the parts about ODI and ADW, just follow the steps to configure BICC and object storage*
 
-3. Pulling to/from external system
+#### 3. Pulling to/from external system
 
     * [This previous lab shows how OIC can read data in a csv and pass it elsewhere](https://garyhostt.github.io/BigQueryIntegration/)
     * [You can use your file server for FBDI import files](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
