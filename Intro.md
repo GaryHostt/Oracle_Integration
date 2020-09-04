@@ -79,8 +79,12 @@ icsauditlog: Contains all the changes users have made on design-time artifacts s
 
 2. BICC Extract from object storage to File Server
 
+You can extract information from Fusion SaaS using [BICC](https://docs.oracle.com/en/cloud/saas/applications-common/r13-update17d/biacc/toc.htm).
+
+>To extract data from a Fusion Applications Cloud data source, you use the BI Cloud Connector Console to schedule a once-only or regular data load, known as a Cloud Extract. For example, you might extract data from Oracle Fusion HCM Cloud. You can load the extracted data into an Oracle Cloud Object Storage bucket or into an Oracle Universal Content Management (UCM) server.
+
     * [Configuring BICC with Object Storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
-      *Ignore the parts about ODI and ADW, just follow the steps to configure BICC and object storage*
+      - *Ignore the parts about ODI and ADW, just follow the steps to configure BICC and object storage*
 
 3. Pulling to/from external system
 
