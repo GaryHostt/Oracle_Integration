@@ -89,10 +89,12 @@ You can extract information from Fusion SaaS using [BICC](https://docs.oracle.co
 
 #### 3. Pulling to/from external system
 
-    * [This previous lab shows how OIC can read data in a csv and pass it elsewhere](https://garyhostt.github.io/BigQueryIntegration/)
-    * [You can use your file server for FBDI import files](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
+   * [This previous lab shows how OIC can read data in a csv and pass it elsewhere](https://garyhostt.github.io/BigQueryIntegration/)
+   * [You can use your file server for FBDI import files](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
       - [alternative FBDI lab](https://github.com/maldu23/Fusion-FBDI-Integration/blob/master/FBDI_Wkshp.md)
-    * [Or HDL imports in HCM](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/hcm-cloud-pending-worker-import-simple.html)
+   * [Or HDL imports in HCM](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/hcm-cloud-pending-worker-import-simple.html)
+   * [Oracle Cloud Applications/SaaS REST APIs documentation](https://docs.oracle.com/en/cloud/saas/index.html)
+      - then you can use the [write file](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/invoke-operations-page.html#GUID-314D1E6C-80E0-49BD-803B-A31BA99C53EA) action in the FTP adapter to create a csv based upon the JSON response from the API
 
 ### Best practices for handling files in OIC
 [File Handling Primer](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
