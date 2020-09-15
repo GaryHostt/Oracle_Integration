@@ -407,7 +407,7 @@ To control and monitor costs, you can [create budgets and budget alerts in OCI](
 
 CI/CD for OIC is an improvement to just using the import/export feature, shown in this [video](https://www.youtube.com/watch?v=FiC7PfN7wZ0) and this [article](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/).
 
-[IDCS roles for OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/assign-roles-user.html)
+[IDCS roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/assigning-service-roles-oracle-integration.html)
 
 [IAM roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
 
