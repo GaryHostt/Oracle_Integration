@@ -370,6 +370,12 @@ These articles are very useful for starting use cases with the systems below.
 
 [The DocuSign Adapter](http://niallcblogs.blogspot.com/2020/02/751-oic-docusign-adapter.html)
 
+[Adobe Sign](http://www.ateam-oracle.com/oic-adobe-sign/)
+
+Create Orders in SAP B1 and Invoices in Magento/eBay E-commerce: [guide](https://cloudmarketplace.oracle.com/marketplace/content?contentId=43332045), [recipe](https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=43327299&adf.tfId=adhtf)
+
+Create Invoices in NetSuite for Shipped Orders in Shopify: [guide](https://cloudmarketplace.oracle.com/marketplace/content?contentId=43283674), [recipe](https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=43065041&adf.tfId=adhtf)
+
 ### More Oracle with OIC
 
 [SOA with OIC](https://blogs.oracle.com/integration/how-soa-suite-adapter-can-help-leverage-your-on-premises-investments)
