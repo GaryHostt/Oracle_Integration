@@ -72,7 +72,7 @@ note: Enterprise edition only below
 ....................
 
 - Process Automation
-- On-premises Entrise Application adapters 
+- On-premises Enterprise Application adapters 
 - [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
