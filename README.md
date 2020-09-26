@@ -230,7 +230,7 @@ The workshops below are excellent for getting started with the various component
 
 - This workshop is discussed in the 'Generic REST endpoint' section
 
-[Getting started with ERP & OIC}
+[Getting started with ERP & OIC](https://garyhostt.github.io/beginner_ERP_OIC/)
 
 ### Advanced workshops
 
