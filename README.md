@@ -230,6 +230,8 @@ The workshops below are excellent for getting started with the various component
 
 - This workshop is discussed in the 'Generic REST endpoint' section
 
+[Getting started with ERP & OIC}
+
 ### Advanced workshops
 
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
