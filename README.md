@@ -208,15 +208,25 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
 
   - [Invoking Fusion's API](https://www.youtube.com/watch?v=6j_Qi2qpmKM)
 
-## Additional Workshops
+## Workshops
 
-The workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. 
+The workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. **Some of these may be outdated and show how to access Gen1 OIC, in those cases start the workshop from where the OIC service console is pictured in that given workshop.**
 
 ### Beginner Workshops
 
 [Integration workshop with Process](https://github.com/OracleCPS/oracleintegrationday)
 
 - Here, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its toolset such as switch statements, javascript labraries, and more. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
+
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
+
+- This workshop is for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
+
+[Application Integration & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Subscription-Management/html/index.html)
+
+[Visual Builder & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Visual-Builder/html/index.html)
+
+[Building a REST API in OIC to pass information to a database](https://github.com/GaryHostt/ATPworkshop)
 
 [VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
 
@@ -225,16 +235,6 @@ The workshops below are excellent for getting started with the various component
 [Database, REST, advanced Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
 
 - Here you continue the previous use cases you've learned in process, but now with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Processing, ATP, database.
-
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
-
-- This workshop is for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
-
-#### More Beginner workshops
-
-[Application Integration & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Subscription-Management/html/index.html)
-
-[Visual Builder & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Visual-Builder/html/index.html)
 
 ### Advanced workshops
 
