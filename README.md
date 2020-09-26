@@ -101,7 +101,7 @@ SaaS trigger integrations typically rely upon these factors:
 
 Using Eloqua as a trigger first requires [installing this agent and linking it to your OIC environment](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Apps/IntegrationCloudService/Tasks/InstallingICS.htm). After installing the agent, you then need to create the rule in Eloqua that triggers the outbound call to OIC by [adding a task to a campaign canvas](https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/IntegrationCloudService/Tasks/AddingICSToCanvas.htm).
 
-[**This workshop**](https://github.com/GaryHostt/OIC_SaaS_integration) shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation.
+[**This workshop**](https://github.com/GaryHostt/OIC_SaaS_integration) shows how to configure Fusion/Cloud ERP to perform outbound communication with OIC. In it, a product created in Product Data Hub triggers an integration to then add the data to CPQ. It will also get you started with Process Automation. The latter parts of [this workshop](https://garyhostt.github.io/beginner_ERP_OIC/) show more event based integrations and all of the necessary configuration inside ERP to configure for your event integrations.
 
 This video shows you how to start [configuring salesforce for business events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share) as integration triggers. This article explains [configuring Service Cloud outbound communication](https://redthunder.blog/2019/04/15/oracle-service-cloud-to-eloqua-contact-create-update-using-oic/) to Eloqua.
 
@@ -122,6 +122,8 @@ The next use case pattern is basically using OIC as a 'drag & drop API builder'.
 The generic REST trigger can also be used to create SaaS trigger integrations with [webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8). Applications need to be configurable to send payloads to a generic REST endpoint. For example, Agile PLM, an Oracle application lacking its own adapter, can be configured to make an outbound call to a generic API as a result of event updates. To create asynchronous communication, you can choose not to configure the REST adapter to receive a response from your other systems.
 
 The generic REST endpoint can also be the beginning of creating an omni-channel communication device, like [Wuphf](https://www.youtube.com/watch?v=GT6uWYqJq6E)! It can also be used to [receive information from an OCI event](https://redthunder.blog/2020/05/14/triggering-an-oic-integration-via-oci-events-the-oracle-functions-approach/).
+
+The first half of [this repository](https://garyhostt.github.io/beginner_ERP_OIC/) does a deep dive on using the generic REST endpoint with Cloud ERP.
 
 ## Treatise: developing in OIC, [my own](https://www.linkedin.com/in/robertamacdonald94/) views
 
