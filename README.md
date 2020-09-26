@@ -34,7 +34,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
   - Blogs
   - Certifications & training
 6. Youtube resources
-7. **Additional Workshops**
+7. **Workshops**
   - Beginner
   - Advanced
 8. Advanced use cases
@@ -210,7 +210,7 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
 
 ## Workshops
 
-The workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. **Some of these may be outdated and show how to access Gen1 OIC, in those cases start the workshop from where the OIC service console is pictured in that given workshop.**
+The workshops below are excellent for getting started with the various components of OIC, in isolation or together, and they seek to minimize reliance on having pre-existing external systems with which to integrate. **Some of these may be outdated and show how to access Gen1 OIC, in those cases start the workshop from where the [OIC service console is pictured](https://github.com/OracleCPS/oracleintegrationday/blob/master/images/300/2019-02-04_14-39-54.jpg?raw=true) in that given workshop.**
 
 ### Beginner Workshops
 
