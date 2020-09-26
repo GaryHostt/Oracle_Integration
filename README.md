@@ -79,6 +79,7 @@ note: Enterprise edition only below
     - 'My Tasks' for run-time & administration
     - 'Processes' for design-time
 - On-premises Enterprise Application adapters 
+    - EBS, JDE, SAP, Siebel, and more
 - [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
 
