@@ -62,6 +62,10 @@ From the [marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/hom
 
 ## Components of OIC
 
+<p align="center">
+  <img src="https://github.com/GaryHostt/Oracle_Integration/blob/master/serviceConsole2.png?raw=true?raw=true" alt="OIC"/>
+</p>
+
   - Application integration
   - VBCS, Visual Builder Cloud Service
   - The agent
@@ -72,6 +76,8 @@ note: Enterprise edition only below
 ....................
 
 - Process Automation
+    - 'My Tasks' for run-time & administration
+    - 'Processes' for design-time
 - On-premises Enterprise Application adapters 
 - [Insight](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-insight.html)
 - [B2B](https://docs.oracle.com/en/cloud/paas/integration-cloud/btob.html)
