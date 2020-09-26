@@ -228,13 +228,7 @@ The workshops below are excellent for getting started with the various component
 
 [Building a REST API in OIC to pass information to a database](https://github.com/GaryHostt/ATPworkshop)
 
-[VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
-
-- This workshop builds upon the previous, adding VBCS & APIPCS to the previous work.
-
-[Database, REST, advanced Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
-
-- Here you continue the previous use cases you've learned in process, but now with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Processing, ATP, database.
+- This workshop is discussed in the 'Generic REST endpoint' section
 
 ### Advanced workshops
 
@@ -253,6 +247,14 @@ The workshops below are excellent for getting started with the various component
 [Scheduled FTP Integration to BigQuery + Oauth2 authentication](https://garyhostt.github.io/BigQueryIntegration/)
 
 - This workshop shows how to use the Oauth2 policy with the OIC REST adapter, the basics of scheduled integrations with the FTP adapter, and how to integrate with GCP's BigQuery.
+
+[VBCS, Process, REST](https://github.com/OracleCPS/aiconlineshopping)
+
+- This workshop builds upon the previous, adding VBCS & APIPCS to the previous work [in the first beginner workshop](https://github.com/OracleCPS/oracleintegrationday).
+
+[Database, REST, advanced Process](https://github.com/oracle/learning-library/blob/master/ospa-library/appint/ApplicationIntegration-labguide.md)
+
+- Here you continue the previous use cases you've learned in process, but now with more complex business logic, and more personas. It also shows you how to connect with an Oracle Autonomous Transaction Processing, ATP, database.
 
 [Hitting an OIC endpoint with a Python API call](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
 
