@@ -241,6 +241,8 @@ The workshops below are excellent for getting started with the various component
 
 [Getting started with ERP & OIC](https://garyhostt.github.io/beginner_ERP_OIC/)
 
+- This repo consolidates everything from this page & other sources on using OIC with Oracle ERP. You can consider it to be a companion guide to this repo.
+
 ### Advanced workshops
 
 [Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
