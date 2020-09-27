@@ -355,6 +355,8 @@ Oracle Integration comes with a built in messaging system to enable publisher, t
 
 - If you need to use the OIC agent in your OCI VCN, the Service Gateway ensures communication isn't routed over the internet.
 
+[Connecting on-premise to OIC via VPN/FastConnect](https://blogs.oracle.com/fmw/fastconnect-and-vpn-with-oracle-integration-cloud-oic)
+
 ## Integration Walk-throughs
 
 These articles are very useful for starting use cases with the systems below.
