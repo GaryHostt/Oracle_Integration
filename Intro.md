@@ -84,8 +84,7 @@ You can extract information from Fusion SaaS using [BICC](https://docs.oracle.co
 
 >To extract data from a Fusion Applications Cloud data source, you use the BI Cloud Connector Console to schedule a once-only or regular data load, known as a Cloud Extract. For example, you might extract data from Oracle Fusion HCM Cloud. You can load the extracted data into an Oracle Cloud Object Storage bucket or into an Oracle Universal Content Management (UCM) server.
 
-[Configuring BICC with Object Storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
-   - *Ignore the parts about ODI and ADW, just follow the steps to configure BICC and object storage*
+[Configuring BICC with Object Storage](https://www.ateam-oracle.com/set-up-oracle-fusion-saas-business-intelligence-cloud-connector-bicc-to-use-oracle-cloud-infrastructure-oci-object-storage)
 
 #### 3. Pulling to/from external system
 
