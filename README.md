@@ -381,6 +381,8 @@ These articles are very useful for starting use cases with the systems below.
 
 [Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
 
+[Sharepoint via REST & flatfile](https://www.techsupper.com/category/sharepoint)
+
 [Robotic Process Automation with the UiPath adapter](https://www.ateam-oracle.com/integrating-oracle-integration-cloud-integration-with-uipath)
 
 [Making a connection with the Workday adapter](https://shalindrasingh.wordpress.com/2017/11/21/oracle-cloud-adapter-for-workday-important-things-to-not/)
