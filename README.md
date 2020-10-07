@@ -420,6 +420,10 @@ An event that occurs in OCI could also be fired to an [integration REST endpoint
 
 Click [here to learn about managing OIC from the OCI console](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), rather than platform services, and click here to learn about using the [new API for OIC](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/). The API documentation can be used create new instances, change the compartment where OIC is located in OIC, and more. 
 
+[The NEW import/export feature](https://blogs.oracle.com/integration/import-export-oracle-integration)
+
+- Use object storage to migrate integrations between different environments
+
 [Administration documentation homepage](https://docs.oracle.com/en/cloud/paas/integration-cloud/integration-cloud-auton/index.html)
 
 [Enable SSO for OIC using IDCS and Federate with Third party IDP for Authentication](https://www.infosysblogs.com/oracle/2019/08/Enable%20SSO%20for%20OIC%20using%20IDCS%20and%20Federate%20with%20Third%20party%20IDP%20for%20Authentication.html)
