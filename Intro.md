@@ -60,23 +60,9 @@ The file server **does not cost any extra money**. If you use it in integrations
 
 * [Download the OIC logs from its API](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/op-ic-api-integration-v1-monitoring-logs-id-get.html)
 
-```
-id: string
-Log file identifier. Specify which file to download. 
-
-Types:
-icsflowlog: Contains information about what is happening during runtime, for active integrations that have tracing enabled.
-icsdiagnosticlog: Contains information for all integrations about how the system is working. This log can be useful when you are analyzing an issue.
-icsauditlog: Contains all the changes users have made on design-time artifacts such as integrations, connections, adapters, and so on. Contains information for all integrations.
-```
+* [My detailed write up on this use case](https://github.com/GaryHostt/Oracle_Integration/blob/master/OIC_logs.md)
 
 - You can call this OIC endpoint, and have your OIC logs stored on your embedded FTP server and/or sent to object storage for analysis by your security platform of choice, such as [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/logcs/ingest-logs-oci-object-storage-buckets.html#GUID-4B2BED39-CF5F-450A-B0E5-6C36FBFB80F4).
-    * To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
-    * OIC logs -> FTP -> Object storage or vice versa
-    * Object storage with OIC:
-        * [Part 1](https://redthunder.blog/2020/01/13/object-storage-with-oracle-integration-cloud-part-1/comment-page-1/)
-        * [Part 2](https://redthunder.blog/2020/03/20/object-storage-with-oracle-integration-cloud-part-2/)
-        * [Official documentation on REST adapter & signature policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84)
 
 #### 2. BICC Extract from object storage to File Server
 
