@@ -22,22 +22,22 @@ You will learn how to unzip files downloaded from REST endpoints and subsequentl
 [Configure OIC File Server](https://blogs.oracle.com/integration/embedded-file-server-sftp-in-oracle-integration)
 [Filezilla](https://filezilla-project.org/) or [cyberduck](https://cyberduck.io/)
 
+# Workshop
+
 ## Integration export + video
 
 [my .iar export](https://github.com/GaryHostt/Oracle_Integration/raw/master/logscreenshots/OIC_LOG_COLLE_FTP_UNZIP_6_01.00.0000.iar)
 
 To use the export, you need to edit the connections, FTP directories, and REST url of object storage, along with any mappings that display a warning symbol. See monitoring for any errors during development. Be sure to track the payload when activating your integration for troubleshooting.
 
-[Video explanation]
+[Video explanation](https://github.com/GaryHostt/Oracle_Integration/blob/master/logscreenshots/tutorial.mp4?raw=true)
 
-You will need to edit the following after importing
+You will need to edit the following after importing, detailed below.
   - FTP, OIC REST, OCI REST connections
   - FTP connections and OCI Object storage REST connection on canvas
   -Any mapper that gains a wanring symbol
 
-## Workshop
-
-### 1: Connect to file server with FTP adapter
+## Connect to file server with FTP adapter
 
 [FTP adapter documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/ftp-adapter/create-connection.html#GUID-662EF1FD-2841-4A9A-87B3-FD8B8796510D)
 ```
@@ -46,13 +46,13 @@ You can use a ssh key you upload for your user or their password. On the adapter
 
 [Ensure your integration users have sufficient permissions](https://blogs.oracle.com/integration/leveraging-oracle-integration-file-server-for-file-based-integrations-v2)
 
-### Connect to OIC API with REST Adapter
+## Connect to OIC API with REST Adapter
 
 ![](logcreenshots/1.png)
 
 To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
 
-### Connect OCI with REST adapter
+## Connect OCI with REST adapter
 [Official documentation on REST adapter & signature policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84)
 
 Object storage with OIC:
@@ -63,7 +63,7 @@ Object storage with OIC:
 [Part 2](https://redthunder.blog/2020/03/20/object-storage-with-oracle-integration-cloud-part-2/)
 - You can also use the GET verb to download files from object storage, not used in this article. 
 
-### Create the scheduled integration
+## Create the scheduled integration
 
 You can import my .iar export to get to this part.
 
@@ -86,7 +86,7 @@ icsauditlog: Contains all the changes users have made on design-time artifacts s
 
 You will need to change the directories in the FTP connections to write to a directory for a user you have enabled for the file server.
 
-#### Within for each loop
+### Within for each loop
 
 ![](logscreenshots/4.png)
 
