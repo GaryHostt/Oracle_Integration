@@ -48,11 +48,12 @@ You can use a ssh key you upload for your user or their password. On the adapter
 
 ## Connect to OIC API with REST Adapter
 
-![](logcreenshots/1.png)
+![](logscreenshots/1.png)
 
 To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
 
 ## Connect OCI with REST adapter
+
 [Official documentation on REST adapter & signature policy](https://docs.oracle.com/en/cloud/paas/integration-cloud/whats-new/index.html#INTWN-GUID-39D35E54-3FA5-4A44-A6FB-7C6496ED7E84)
 
 Object storage with OIC:
