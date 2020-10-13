@@ -24,11 +24,11 @@ You will learn how to unzip files downloaded from REST endpoints and subsequentl
 
 ## Integration export + video
 
-[my .iar export]()
+[my .iar export](https://github.com/GaryHostt/Oracle_Integration/raw/master/logscreenshots/OIC_LOG_COLLE_FTP_UNZIP_6_01.00.0000.iar)
 
 To use the export, you need to edit the connections, FTP directories, and REST url of object storage, along with any mappings that display a warning symbol. See monitoring for any errors during development. Be sure to track the payload when activating your integration for troubleshooting.
 
-[video]
+[Video explanation]
 
 You will need to edit the following after importing
   - FTP, OIC REST, OCI REST connections
