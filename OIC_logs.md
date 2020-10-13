@@ -48,7 +48,7 @@ You can use a ssh key you upload for your user or their password. On the adapter
 
 ### Connect to OIC API with REST Adapter
 
-![](Logscreenshots/1.png)
+![](logcreenshots/1.png)
 
 To authenticate to OIC’s API with the REST adapter, simply base the url of your instance before /ic/home ; and use the basic auth security with the user you are logged in with, or another IDCS user that has the ’Service Administrator’ role for your OIC instance.
 
@@ -67,7 +67,7 @@ Object storage with OIC:
 
 You can import my .iar export to get to this part.
 
-![](Logscreenshots/2.png)
+![](logscreenshots/2.png)
 
 The getOICLogs connection uses this endpoint below. You can change the id to get different files.
 
@@ -82,27 +82,27 @@ icsdiagnosticlog: Contains information for all integrations about how the system
 icsauditlog: Contains all the changes users have made on design-time artifacts such as integrations, connections, adapters, and so on. Contains information for all integrations.
 ```
 
-![](Logscreenshots/3.png)
+![](logscreenshots/3.png)
 
 You will need to change the directories in the FTP connections to write to a directory for a user you have enabled for the file server.
 
 #### Within for each loop
 
-![](Logscreenshots/4.png)
+![](logscreenshots/4.png)
 
 You will need to change the directories on these two FTP adapters in the for each loop, and then for 'writeToObject' you will need to change the url to use your tenancy namespace and desired bucket.
 
 ### Monitoring
 
-![](Logscreenshots/5.png)
+![](logscreenshots/5.png)
 
 After proper configuration, you should see a 'Succeeded' run of your integration in tracking.
 
-![](Logscreenshots/6.png)
+![](logscreenshots/6.png)
 
 While the for each loop shows 3 files, only 2 are written to object storage because I have the switch statement ignore the 'environment.txt' file in the unzipped folder.
 
-![](Logscreenshots/7.png)
+![](logscreenshots/7.png)
 
 In your object storage bucket, you should see files with the current date-time attached at the beginning of the file names. 
 
