@@ -435,6 +435,7 @@ Those using previous SOA licences are eligible for [BYOL metering, do you qualif
 To control and monitor costs, you can [create budgets and budget alerts in OCI](https://blogs.oracle.com/cloud-infrastructure/how-to-get-control-of-your-spending-in-oracle-cloud-infrastructure) and use the [start/stop API, which I demonstrate in this repo](https://garyhostt.github.io/OIC_start-stop/).
 
 CI/CD for OIC is an improvement to just using the import/export feature, shown in this [video](https://www.youtube.com/watch?v=FiC7PfN7wZ0) and this [article](https://redthunder.blog/2017/02/26/teaching-how-to-use-developer-cloud-service-to-promote-ics-integrations-into-new-environments/).
+  - Most recent article, [OIC CI/CD with Jenkins](https://blogs.oracle.com/integration/cicd-implementation-for-oic)
 
 [IDCS roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/assigning-service-roles-oracle-integration.html)
 
