@@ -227,7 +227,7 @@ The workshops below are excellent for getting started with the various component
 
 - Here, labs 100 & 300 contains great starters for basic Application Integration while seeing a variety of its toolset such as switch statements, javascript labraries, and more. Lab 400 has a great introduction for Process Automation that builds on the previous work. The next two workshops below expand on the use case while showing VBCS and integration with other systems.
 
-[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
+[Getting started with VBCS](https://github.com/OracleCPS/Visual-Builder-Cloud-Service_VBCS/blob/master/workshops/workshop-template/LabGuide100.md), with [video](https://www.youtube.com/watch?v=zPNCj4K0jSM)
 
 - This workshop is for **solely** getting started with VBCS, you'll create a functioning app with multiple pages that displays information about countries.
 
