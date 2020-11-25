@@ -245,9 +245,9 @@ The workshops below are excellent for getting started with the various component
 
 ### Advanced workshops
 
-[Fusion ERP events, FBDI, Extracts, BIP](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
+[Fusion ERP events, FBDI, Extracts](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html)
 
-- This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: BIP, FBDI, extracts, and events. 
+- This workshop contains the common ERP Cloud integration patterns with the OIC adapter. The OIC adapter is capable of interacting with Fusion via: FBDI, extracts, and events. 
 
 [HCM integration patterns](https://antonyjr.github.io/Hands-On-Labs/HCM-Integration-Patterns/html/index.html)
 
