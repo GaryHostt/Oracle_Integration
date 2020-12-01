@@ -201,7 +201,7 @@ This channel will show you VBCS, Process Automation, RPA, and other demos in act
   
   - [Best video for installing an agent](https://www.youtube.com/watch?v=nYmOgX95wd4)
 
-      ---> The agent is required to integrate with systems not accessible from the internet. You only need an egress rule allowing communication over port 22. The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
+      ---> The agent is required to integrate with systems not accessible from the internet. Agent does not listen on any ports and communicates outbound on port 443. The network must allow egress to OIC instance port 443.The agent ensures your on-premises systems can live in harmony with the cloud. If you are having issues, [check this page for solutions](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/troubleshooting-premises-connectivity-agent-issues.html); ex: when configuring - do not use an IDCS federated account!
       
 [Oracle Learning - Integration videos](https://www.youtube.com/user/OracleLearning/search?query=integration)
 
