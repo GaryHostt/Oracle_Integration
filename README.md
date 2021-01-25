@@ -49,9 +49,13 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 ## The latest & greatest
 
+[Embedding VBCS apps in Oracle Applications - the COMPLETE guide/video](https://blogs.oracle.com/shay/embedding-visual-builder-apps-in-other-apps)
+
 [Easily using API Gateway with OIC](https://www.ateam-oracle.com/a-simple-guide-to-setup-api-gateway-with-oracle-integration-cloud)
 
 - [This follow up](https://www.ateam-oracle.com/end-to-end-security-using-oci-waf%2C-oci-api-gateway-and-oci-functions) shows how to use API Gateway with WAF, but you can also configure WAF with OIC.
+
+[Configuring Oracle identities across SaaS & PaaS](https://docs.oracle.com/en/solutions/integrate-saas-application-with-paas/index.html#GUID-F5A94755-D62F-4BB3-901D-99564505D3A0)
 
 ## General resources
 
