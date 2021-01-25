@@ -4,11 +4,11 @@
 
 ## Introduction
 
-This guide acts as a repository for getting started with Oracle Integration written by [Alex MacDonald](https://intro.alexmacdonald.solutions). You will find relevant resources for using it with a wide variety of use cases.
+This guide acts as a repository for using Oracle Integration written by [Alex MacDonald](https://intro.alexmacdonald.solutions). You will find relevant resources for administering and using OIC with a wide variety of use cases.
 
 Oracle Integration, OIC, is a fully managed service offered by Oracle, ranked as a [leader in application integration by Gartner](https://www.informatica.com/ipaas-magic-quadrant.html). OIC offers application integration, typically triggered by an enterprise's business events, and it can eliminate the pain points caused by [point-to-point integrations](https://www.christiernan.com/why-point-to-point-integrations-are-evil/). We have [many successful customers](https://blogs.oracle.com/integration/oracle-integration-customer-success-stories) that have digitally transformed their businesses. 
 
-OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle_Data_Integrator/), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/zzhangjii/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. 
+OIC substantially differs from Oracle's [ODI](https://garyhostt.github.io/Oracle_Data_Integrator/), [EDQ](https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/edq/pdf/edq-12.2.1-getting-started-lab/getting-started-with-edq.pdf), and [GoldenGate](https://github.com/zzhangjii/GoldenGate2ADB) offerings. The latter 3 offer data integration - moving larger quantities of data, typically to a data warehouse, for analysis. **Newly released:** is Oracle's [Data Integration](https://docs.oracle.com/en-us/iaas/data-integration/using/overview.htm).
 
 - For Fusion application users seeking to move ***large*** quantities of data, click [here](https://garyhostt.github.io/Oracle_Data_Integrator/) to see how to use BICC, Object Storage, Oracle Data Integrator, and Autonomous Database in conjunction. 
 
