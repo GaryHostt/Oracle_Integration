@@ -1,5 +1,3 @@
-# Oracle Integration
-
 <p align="center">
   <img src="https://github.com/GaryHostt/Oracle_Integration/blob/master/screenshots/1.png?raw=true" alt="OIC"/>
 </p>
