@@ -20,6 +20,7 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 ## Outline
 
+0. The latest & greatest!
 1. General Resources
 2. Components of OIC
 3. **Basic types of integrations - with workshop examples**
@@ -45,6 +46,12 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
   - other Oracle Cloud
 11. **Administering OIC**
 12. Beyond Application Integration
+
+## The latest & greatest
+
+[Easily using API Gateway with OIC](https://www.ateam-oracle.com/a-simple-guide-to-setup-api-gateway-with-oracle-integration-cloud)
+
+- [This follow up](https://www.ateam-oracle.com/end-to-end-security-using-oci-waf%2C-oci-api-gateway-and-oci-functions) shows how to use API Gateway with WAF, but you can also configure WAF with OIC.
 
 ## General resources
 
@@ -379,6 +386,8 @@ These articles are very useful for starting use cases with the systems below.
 
 ### Non-Oracle Apps with OIC
 
+[The complete integrating SAP guide](https://blogs.oracle.com/integration/using-oracle-integration-cloud-to-integrate-sap-oracle-saas)
+
 [Using the ServiceNow adapter](https://niallcblogs.blogspot.com/2020/03/759-oic-creating-incident-in-servicenow.html?m=1)
 
 [Sharepoint via REST & flatfile](https://www.techsupper.com/category/sharepoint)
@@ -418,6 +427,8 @@ An event that occurs in OCI could also be fired to an [integration REST endpoint
 
 ## Administering OIC
 
+[The comprhensive guide on promoting your code from dev, test, prod and other other OIC environments to each other](https://blogs.oracle.com/integration/promoting-your-code)
+
 Click [here to learn about managing OIC from the OCI console](https://docs.cloud.oracle.com/en-us/iaas/integration/index.html), rather than platform services, and click here to learn about using the [new API for OIC](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/integration/20190131/). The API documentation can be used create new instances, change the compartment where OIC is located in OIC, and more. 
 
 [The NEW import/export feature](https://blogs.oracle.com/integration/import-export-oracle-integration)
@@ -440,6 +451,8 @@ CI/CD for OIC is an improvement to just using the import/export feature, shown i
 [IDCS roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/assigning-service-roles-oracle-integration.html)
 
 [IAM roles for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/setting-users-and-groups-oracle-integration-generation-2.html)
+
+[How to recover unsaved changes in OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/recover-unsaved-integration-changes.html)
 
 ## Error Handling in OIC
 
