@@ -127,7 +127,7 @@ OIC can process flat files up to 1 GB in size. For larger files than that - [che
 
 The next use case pattern is basically using OIC as a 'drag & drop API builder'. You can use a blank REST adapter at the beginning of your integrations. This can also be used to abstract away SOAP endpoints. These endpoints can also invoked from Postman, SOAP UI, VBCS, your given front end framework of choice, coding language API call, etc. 
 
-[**In this workshop**](https://github.com/GaryHostt/ATPworkshop), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
+[**In this workshop**](https://garyhostt.github.io/ATPworkshop/), we basically use OIC to create a REST API for an Autonomous Transaction Processing database. [Click here](http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-9nP2LaeOok%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-9nP2LaeOok&amp;type=text%2Fhtml&amp;schema=youtube) for a video explanation by a colleague & I. It will also show you how to get started using VBCS.
 
 The generic REST trigger can also be used to create SaaS trigger integrations with [webhooks](https://www.youtube.com/watch?v=rUaDIH5ZXB8). Applications need to be configurable to send payloads to a generic REST endpoint. For example, Agile PLM, an Oracle application lacking its own adapter, can be configured to make an outbound call to a generic API as a result of event updates. To create asynchronous communication, you can choose not to configure the REST adapter to receive a response from your other systems.
 
@@ -244,9 +244,9 @@ The workshops below are excellent for getting started with the various component
 
 [Visual Builder & Process Automation Introduction](https://antonyjr.github.io/Hands-On-Labs/Visual-Builder/html/index.html)
 
-[Building a REST API in OIC to pass information to a database](https://github.com/GaryHostt/ATPworkshop)
+[Building a REST API in OIC to pass information to a database](https://garyhostt.github.io/ATPworkshop/)
 
-- This workshop is discussed in the 'Generic REST endpoint' section
+- This workshop is discussed in the 'Generic REST endpoint' section and in this [Youtube video](https://www.youtube.com/watch?v=-9nP2LaeOok).
 
 [Getting started with ERP & OIC](https://garyhostt.github.io/beginner_ERP_OIC/)
 
