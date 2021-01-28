@@ -47,6 +47,8 @@ If you do not have an OIC environment, you can start with this [tutorial](https:
 
 ## The latest & greatest
 
+[Cloning OIC scripts via REST scripts](https://github.com/AntonyJR/CloneOICScripts)
+
 [Embedding VBCS apps in Oracle Applications - the COMPLETE guide/video](https://blogs.oracle.com/shay/embedding-visual-builder-apps-in-other-apps)
 
 [Easily using API Gateway with OIC](https://www.ateam-oracle.com/a-simple-guide-to-setup-api-gateway-with-oracle-integration-cloud)
